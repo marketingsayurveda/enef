@@ -1,17 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Renderiza los iconos inline de Lucide (data-lucide).
   if (window.lucide) {
     lucide.createIcons();
   }
 
-  document.querySelectorAll(".retreat-card__more").forEach((button) => {
-    const panel = button.nextElementSibling;
-    if (!panel || !panel.classList.contains("retreat-card__toogle")) return;
-
-    button.setAttribute("aria-expanded", "false");
+  // Acordeón de preguntas frecuentes.
+  document.querySelectorAll(".faq-item").forEach((item) => {
+    const button = item.querySelector(".faq-item__q");
+    if (!button) return;
 
     button.addEventListener("click", () => {
-      const isOpen = panel.classList.toggle("is-open");
-      button.classList.toggle("is-open", isOpen);
+      const isOpen = item.classList.toggle("is-open");
       button.setAttribute("aria-expanded", String(isOpen));
     });
   });

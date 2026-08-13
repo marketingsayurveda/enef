@@ -1,29 +1,39 @@
 <!doctype html>
-<html lang="sk">
+<html lang="cs">
   <head>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
+          dl = l != "dataLayer" ? "&l=" + l : "";
         j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-K94XR9RF');
+      })(window, document, "script", "dataLayer", "GTM-K94XR9RF");
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ajurvédske pobyty – Vráťte telu prirodzenú rovnováhu</title>
+    <title>ENEF – Podpora duševního zdraví pro zaměstnance (EAP)</title>
+    <meta
+      name="description"
+      content="Program podpory zaměstnanců (EAP) od ENEF – psychologické, právní a finanční poradenství, krizová linka 24/7 a podpora pro management a HR."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/eap/assets/enef-consulting-services-logo-color.svg"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
     />
-    <link rel="stylesheet" href="/ayurveda/styles/styles.css" />
+    <link rel="stylesheet" href="/eap/styles/styles.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -36,557 +46,483 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header class="navbar">
-      <div class="container navbar__inner">
-        <a href="#" class="logo">ayurvédske pobyty</a>
-        <nav class="nav" aria-label="Hlavná navigácia">
-          <ul class="nav__links">
-            <li><a href="#pobyty">Pobyty</a></li>
-            <li><a href="#o-nas">O nás</a></li>
-            <li><a href="#recenzie">Recenzie</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-          </ul>
-          <a href="#pobyty" class="btn btn--dark nav__cta">Vybrať pobyt</a>
-        </nav>
+
+    <header class="header">
+      <div class="shell header__inner">
+        <a href="/eap/" class="logo" aria-label="ENEF Consulting Services">
+          <img
+            src="/eap/assets/enef-consulting-services-logo-color.svg"
+            alt="ENEF Consulting Services"
+          />
+        </a>
+        <a href="#form" class="btn btn--blue"
+          >Požádat o bezplatnou konzultaci</a
+        >
       </div>
     </header>
 
     <main>
+      <!-- Hero -->
       <section class="hero">
-        <div class="container hero__inner">
+        <div class="shell hero__inner">
+          <div class="hero__illustration">
+            <img
+              src="/eap/assets/header-image.avif"
+              alt="Ilustrace zaměstnance, o jehož duševní pohodu pečujeme"
+              width="550"
+              height="467"
+            />
+          </div>
           <div class="hero__copy">
-            <h1 class="hero__headline">Vráťte telu prirodzenú rovnováhu.</h1>
-            <p class="hero__subcopy">
-              Ajurvédske pobyty prispôsobené vašim potrebám – citlivo, bezpečne
-              a bez nátlaku. Pomôžeme vám zvoliť program, ktorý dáva zmysel
-              práve pre vás.
+            <h1 class="hero__title">
+              Podpora duševního zdraví pro zaměstnance
+            </h1>
+            <p class="hero__text">
+              Program podpory zaměstnanců (EAP) je zaměřený na pomoc
+              zaměstnancům a jejich rodinným příslušníkům při řešení náročných
+              životních situací, které ovlivňují jejich duševní pohodu,
+              stabilitu a celkový pracovní výkon.
             </p>
-            <div class="hero__cta-row">
-              <a href="#pobyty" class="btn btn--dark">Vybrať pobyt</a>
+            <p class="hero__text">
+              Firmám pomáhá snižovat absenci, zvyšovat angažovanost, stabilitu
+              týmů a budovat silnou, zdravou firemní kulturu.
+            </p>
+            <div class="hero__buttons">
+              <a href="#form" class="btn btn--green">Rezervovat konzultaci</a>
+              <a href="#reference" class="btn btn--outline">Jak to funguje?</a>
             </div>
-            <ul class="hero__features">
-              <li class="feature">
-                <svg
-                  id="Layer_1"
-                  viewBox="0 0 512 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                  data-name="Layer 1"
-                  class="hero__svg"
-                >
-                  <path
-                    d="m444.133 216.579v85.255c0 9.894-4.795 18.394-13.264 23.51-8.469 5.117-18.222 5.404-26.981.806l-59.458-31.217c-3.285-1.725-6.943-1.616-10.119.302s-4.975 5.106-4.975 8.817v51.567c0 9.685 4.577 18.009 12.756 23.196 38.911 24.677 95.643 42.768 88.784 80.395-4.639 25.453-34.63 28.904-67.584 23.209-20.642-3.567-42.499-12.52-64.119-21.956 18.449-7.759 36.078-14.134 51.542-15.632 5.244 2.155 10.203 4.026 14.77 5.458.84.253 1.679.38 2.509.38 3.576 0 6.895-2.297 8.018-5.888 1.381-4.426-1.083-9.135-5.514-10.522-10.142-3.167-23.122-9.055-36.877-15.287-10.542-4.786-21.453-9.738-31.318-13.511-22.662-8.681-27.771-7.957-49.376.43-9.556 3.723-20.047 8.473-30.195 13.081-13.754 6.232-26.734 12.12-36.877 15.287-4.421 1.386-6.885 6.096-5.509 10.522 1.386 4.416 6.095 6.885 10.522 5.509 11.123-3.485 24.564-9.576 38.789-16.031 9.945-4.512 20.219-9.171 29.355-12.717 18.312-7.113 19.025-7.396 37.292-.41 8.713 3.342 18.537 7.757 28.149 12.114-14.886 4.443-30.44 11.07-46.273 18.016-28.251 12.237-57.748 26.429-85.112 31.158-32.955 5.695-62.945 2.244-67.584-23.209-6.859-37.626 49.872-55.717 88.784-80.395 8.178-5.187 12.755-13.511 12.755-23.196v-51.567c0-3.711-1.799-6.899-4.974-8.817-3.176-1.919-6.834-2.027-10.119-.302l-59.458 31.217c-8.76 4.598-18.513 4.311-26.981-.806-8.469-5.116-13.264-13.616-13.264-23.51v-85.255c0-19.838 31.586-19.83 31.586 0v63.139c0 1.978.96 3.68 2.654 4.703 1.694 1.024 3.647 1.084 5.398.161l54.44-28.699c14.88-7.844 29.29-11.41 46.112-11.41h51.526c16.821 0 31.232 3.566 46.112 11.41l54.44 28.699c1.751.923 3.704.862 5.398-.161s2.654-2.725 2.654-4.703v-63.139c0-19.83 31.586-19.838 31.586 0zm-208.967-25.735c0 23.692 19.323 43.015 43.015 43.015s43.015-19.323 43.015-43.015-19.323-43.015-43.015-43.015-43.015 19.323-43.015 43.015zm186.449-11.323c-65.353-37.906-89.653-76.014-86.176-108.365 4.437-41.281 51.348-64.517 86.176-19.185 34.829-45.332 81.74-22.097 86.176 19.185 3.477 32.352-20.824 70.459-86.176 108.365zm46.64-111.581c-3.23-3.023-8.288-2.854-11.311.371l-42.187 45.09-16.205-22.897c-2.555-3.606-7.55-4.46-11.147-1.909-3.611 2.551-4.469 7.545-1.909 11.152l21.86 30.905c1.388 1.962 3.587 3.197 5.988 3.36.183.01.361.014.55.014 2.199 0 4.32-.911 5.839-2.531l48.894-52.249c3.018-3.225 2.849-8.288-.371-11.306zm-268.87 62.451c-7.864 13.486-18.115 24.697-29.899 33.407-4.555 3.366-9.338 6.362-14.3 8.973 4.252.084 8.525-.111 12.79-.594 12.646-1.434 25.202-5.4 36.923-12.097.117-.076.236-.151.358-.221 11.863-6.849 21.716-15.824 29.354-26.159 6.504-8.801 11.412-18.603 14.598-28.933-5.898-1.346-11.919-2.142-17.982-2.364-6.851-.251-13.773.229-20.646 1.475-2.466 8.939-6.097 17.713-10.949 26.116-.079.137-.162.269-.249.399zm-49.449 28.45c3.722-2.049 7.32-4.35 10.763-6.895 10.248-7.574 19.146-17.297 25.949-28.964.066-.131.135-.261.21-.39 6.834-11.837 10.872-24.519 12.319-37.281 1.236-10.906.592-21.858-1.806-32.384-5.781 1.785-11.402 4.112-16.78 6.958-6.058 3.207-11.804 7.077-17.12 11.579 2.344 8.984 3.592 18.396 3.592 28.083 0 15.736-3.292 30.745-9.228 44.374-2.261 5.192-4.906 10.177-7.898 14.92zm-63.901-59.294c0-9.687 1.248-19.099 3.593-28.083-5.316-4.502-11.063-8.372-17.12-11.578-5.378-2.847-10.999-5.174-16.781-6.959-2.397 10.526-3.042 21.479-1.806 32.384 1.447 12.762 5.485 25.444 12.319 37.281l-.013.007.013.022c6.829 11.829 15.805 21.672 26.158 29.325 3.443 2.545 7.041 4.845 10.763 6.894-2.992-4.743-5.637-9.728-7.898-14.919-5.935-13.629-9.228-28.638-9.228-44.374zm-32.559 30.437-.013.007c-4.852-8.404-8.483-17.178-10.949-26.117-6.873-1.245-13.795-1.726-20.646-1.474-6.063.223-12.085 1.018-17.982 2.364 3.186 10.33 8.094 20.133 14.599 28.934 7.638 10.335 17.491 19.31 29.354 26.159l-.007.012c11.826 6.824 24.511 10.857 37.288 12.306 4.266.483 8.539.679 12.791.594-4.962-2.611-9.745-5.606-14.3-8.973-11.902-8.797-22.24-20.146-30.135-33.813zm90.831 8.041c5.117-11.751 7.956-24.762 7.956-38.478s-2.839-26.726-7.956-38.477c-4.372-10.04-10.408-19.195-17.758-27.119-7.351 7.925-13.387 17.079-17.758 27.119-5.117 11.751-7.956 24.762-7.956 38.477s2.839 26.726 7.956 38.477c4.372 10.04 10.408 19.195 17.759 27.119 7.351-7.924 13.386-17.079 17.758-27.119z"
-                  />
-                </svg>
-
-                <div class="feature__text">
-                  <p class="feature__title">Bezpečný výber</p>
-                  <p class="feature__desc">
-                    Najprv odporúčanie,<br />potom rozhodnutie.
-                  </p>
-                </div>
-              </li>
-              <li class="feature">
-                <svg
-                  id="Layer_1"
-                  enable-background="new 0 0 512 512"
-                  viewBox="0 0 512 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="hero__svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="m496 348.57c-10.89 49.71-41.86 94.84-89.4 122.29-39.92 23.05-84.79 29.74-126.85 22.16l3.75-1.35c44.5-15.99 81.54-46.99 105.18-87.94 11.25-19.49 19-40.47 23.16-62.05 28.42-4.17 57.23-1.68 84.16 6.89zm-343.71-237.35c-3.31 0-6-2.69-6-6s2.69-6 6-6h38.59l22.27-18.99c3.09-2.64 7.84-1.47 9.4 2.21l13.56 27.12 25.5-52.59c2.18-4.52 8.57-4.46 10.75-.06l21.12 42.31h66.23c3.31 0 6 2.69 6 6s-2.69 6-6 6h-69.94c-2.2-.01-4.32-1.22-5.37-3.33l-17.34-34.75-25.48 52.55c-2.17 4.4-8.49 4.55-10.73.07l-15.74-31.49-17.84 15.22c-1.08 1.06-2.57 1.72-4.2 1.72h-40.78zm165.16 12h-27.68c-6.81 0-13.05-3.86-16.1-9.97l-6.45-12.93-14.84 30.61c-6.41 13.22-25.53 13.66-32.26.2l-8.88-17.77-5.95 5.07c-2.98 2.75-6.78 4.41-10.8 4.73l61.51 61.51zm-150.9-35.99h19.91l18.91-16.13c9.11-7.77 23.14-4.51 28.04 6.22l2.54 5.08 14.87-30.66c6.58-13.57 25.71-13.33 32.28-.19l17.81 35.68h44.55c6.3-18.82 1.95-40.41-13.03-55.4-21.1-21.1-55.32-21.1-76.42 0-21.1-21.1-55.32-21.1-76.42 0-15 14.98-19.34 36.58-13.04 55.4zm89.45 122.78c-37.6 34.28-61.2 83.67-61.2 138.56s23.6 104.28 61.2 138.56c37.6-34.28 61.2-83.67 61.2-138.56 0-54.9-23.6-104.28-61.2-138.56zm138.56 37.12c-27.6 6.04-53.79 18.29-76.32 36.11 7.19 20.76 10.96 42.79 10.96 65.32 0 48.94-17.8 95.56-49.76 131.81 40.25-14.47 75.79-42.71 98.85-82.65 27.44-47.53 31.7-102.09 16.27-150.59zm-162 233.25c-40.25-14.47-75.79-42.71-98.85-82.65-27.45-47.54-31.7-102.11-16.28-150.6 27.6 6.04 53.79 18.29 76.32 36.11-7.19 20.76-10.96 42.79-10.96 65.32.01 48.95 17.8 95.57 49.77 131.82zm-216.56-131.81c26.93-8.57 55.74-11.06 84.17-6.88 4.16 21.58 11.9 42.56 23.15 62.05 23.64 40.95 60.68 71.94 105.18 87.94l3.75 1.35c-42.07 7.58-86.94.88-126.86-22.16-47.53-27.46-78.5-72.59-89.39-122.3z"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-                <div class="feature__text">
-                  <p class="feature__title">Regenerácia</p>
-                  <p class="feature__desc">
-                    Spánok, energia,<br />nervový systém.
-                  </p>
-                </div>
-              </li>
-              <li class="feature">
-                <svg
-                  id="Layer_1"
-                  height="512"
-                  viewBox="0 0 24 24"
-                  width="512"
-                  xmlns="http://www.w3.org/2000/svg"
-                  data-name="Layer 1"
-                  class="hero__svg"
-                >
-                  <path
-                    d="m15.829 2c-.413-1.164-1.525-2-2.829-2h-2c-1.304 0-2.416.836-2.829 2h-5.171v19c0 1.654 1.346 3 3 3h12c1.654 0 3-1.346 3-3v-19zm3.171 19c0 .551-.449 1-1 1h-12c-.551 0-1-.449-1-1v-17h5v-1c0-.551.449-1 1-1h2c.551 0 1 .449 1 1v1h5zm-5-7c1.654 0 3 1.346 3 3v2h-2v-2c0-.551-.449-1-1-1h-4c-.551 0-1 .449-1 1v2h-2v-2c0-1.654 1.346-3 3-3zm-4.5-3.5c0 1.379 1.121 2.5 2.5 2.5s2.5-1.121 2.5-2.5-1.121-2.5-2.5-2.5-2.5 1.121-2.5 2.5z"
-                  />
-                </svg>
-                <div class="feature__text">
-                  <p class="feature__title">Osobná starostlivosť</p>
-                  <p class="feature__desc">
-                    Nie univerzálny balík<br />pre každého.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="hero__image">
-            <img src="/ayurveda/assets/descarga.avif" />
           </div>
         </div>
       </section>
 
-      <section class="assurance">
-        <div class="container assurance__inner">
-          <div class="assurance__copy">
-            <h2 class="title-md">Istota ešte pred výberom pobytu</h2>
-            <p class="desc">
-              Ak je pre vás ajurvéda nová, je to v poriadku. Najprv si prejdeme
-              váš cieľ a potreby a až potom odporúčame vhodný pobyt – aby ste sa
-              rozhodovali pokojne a s dôverou.
-            </p>
-          </div>
-          <ul class="assurance__grid">
-            <li class="item">
-              <svg
-                id="Capa_1"
-                enable-background="new 0 0 512 512"
-                height="512"
-                viewBox="0 0 512 512"
-                width="512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g>
-                  <path
-                    d="m255.999 191.736c-9.971 12.054-24.08 33.605-24.955 59.83-.721 21.599 7.664 43.031 24.957 63.875 17.292-20.844 25.678-42.276 24.957-63.875-.877-26.216-14.979-47.766-24.959-59.83z"
-                  />
-                  <path
-                    d="m201.072 250.226c.002-.056.006-.111.008-.167-16.944-10.869-35.733-14.499-48.262-15.648 1.464 15.569 6.718 40.828 24.667 60.017 11.086 11.852 25.738 20.004 43.767 24.394-14.272-22.007-21.043-44.971-20.18-68.596z"
-                  />
-                  <path
-                    d="m373.014 23.761c-49.125 0-92.295 25.487-117.014 63.958-24.719-38.471-67.889-63.958-117.014-63.958-76.76 0-138.986 62.226-138.986 138.986 0 93.253 62.791 187.861 256 325.492 193.209-137.631 256-232.239 256-325.492 0-76.76-62.226-138.986-138.986-138.986zm-16.357 290.91c-23.424 25.2-57.289 37.978-100.657 37.978s-77.234-12.777-100.657-37.978c-36.642-39.421-33.074-94.397-32.904-96.719l.945-12.92 12.92-.945c1.834-.137 36.547-2.384 70.484 14.758 11.877-36.118 38.016-59.074 39.408-60.277l9.804-8.467 9.805 8.467c1.391 1.202 27.531 24.159 39.407 60.278 33.936-17.14 68.648-14.891 70.484-14.759l12.92.945.945 12.92c.17 2.321 3.739 57.298-32.904 96.719z"
-                  />
-                  <path
-                    d="m310.928 250.226c.864 23.625-5.907 46.588-20.177 68.594 18.119-4.412 32.827-12.624 43.933-24.572 17.939-19.3 23.136-44.313 24.555-59.781-12.558 1.182-31.421 4.833-48.317 15.619.001.046.004.092.006.14z"
-                  />
-                </g>
-              </svg>
-              <div class="item__text">
-                <p class="item__title">Individuálne nastavenie</p>
-                <p class="item__desc">
-                  Odporúčanie programu podľa vašej situácie.
-                </p>
-              </div>
-            </li>
-            <li class="item">
-              <svg
-                id="Capa_1"
-                enable-background="new 0 0 512 512"
-                height="512"
-                viewBox="0 0 512 512"
-                width="512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g>
-                  <path
-                    d="m255.999 191.736c-9.971 12.054-24.08 33.605-24.955 59.83-.721 21.599 7.664 43.031 24.957 63.875 17.292-20.844 25.678-42.276 24.957-63.875-.877-26.216-14.979-47.766-24.959-59.83z"
-                  />
-                  <path
-                    d="m201.072 250.226c.002-.056.006-.111.008-.167-16.944-10.869-35.733-14.499-48.262-15.648 1.464 15.569 6.718 40.828 24.667 60.017 11.086 11.852 25.738 20.004 43.767 24.394-14.272-22.007-21.043-44.971-20.18-68.596z"
-                  />
-                  <path
-                    d="m373.014 23.761c-49.125 0-92.295 25.487-117.014 63.958-24.719-38.471-67.889-63.958-117.014-63.958-76.76 0-138.986 62.226-138.986 138.986 0 93.253 62.791 187.861 256 325.492 193.209-137.631 256-232.239 256-325.492 0-76.76-62.226-138.986-138.986-138.986zm-16.357 290.91c-23.424 25.2-57.289 37.978-100.657 37.978s-77.234-12.777-100.657-37.978c-36.642-39.421-33.074-94.397-32.904-96.719l.945-12.92 12.92-.945c1.834-.137 36.547-2.384 70.484 14.758 11.877-36.118 38.016-59.074 39.408-60.277l9.804-8.467 9.805 8.467c1.391 1.202 27.531 24.159 39.407 60.278 33.936-17.14 68.648-14.891 70.484-14.759l12.92.945.945 12.92c.17 2.321 3.739 57.298-32.904 96.719z"
-                  />
-                  <path
-                    d="m310.928 250.226c.864 23.625-5.907 46.588-20.177 68.594 18.119-4.412 32.827-12.624 43.933-24.572 17.939-19.3 23.136-44.313 24.555-59.781-12.558 1.182-31.421 4.833-48.317 15.619.001.046.004.092.006.14z"
-                  />
-                </g>
-              </svg>
-              <div class="item__text">
-                <p class="item__title">Starostlivosť počas pobytu</p>
-                <p class="item__desc">
-                  Sprievod, komunikácia a podpora na mieste.
-                </p>
-              </div>
-            </li>
-            <li class="item">
-              <svg
-                id="Capa_1"
-                enable-background="new 0 0 512 512"
-                height="512"
-                viewBox="0 0 512 512"
-                width="512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g>
-                  <path
-                    d="m255.999 191.736c-9.971 12.054-24.08 33.605-24.955 59.83-.721 21.599 7.664 43.031 24.957 63.875 17.292-20.844 25.678-42.276 24.957-63.875-.877-26.216-14.979-47.766-24.959-59.83z"
-                  />
-                  <path
-                    d="m201.072 250.226c.002-.056.006-.111.008-.167-16.944-10.869-35.733-14.499-48.262-15.648 1.464 15.569 6.718 40.828 24.667 60.017 11.086 11.852 25.738 20.004 43.767 24.394-14.272-22.007-21.043-44.971-20.18-68.596z"
-                  />
-                  <path
-                    d="m373.014 23.761c-49.125 0-92.295 25.487-117.014 63.958-24.719-38.471-67.889-63.958-117.014-63.958-76.76 0-138.986 62.226-138.986 138.986 0 93.253 62.791 187.861 256 325.492 193.209-137.631 256-232.239 256-325.492 0-76.76-62.226-138.986-138.986-138.986zm-16.357 290.91c-23.424 25.2-57.289 37.978-100.657 37.978s-77.234-12.777-100.657-37.978c-36.642-39.421-33.074-94.397-32.904-96.719l.945-12.92 12.92-.945c1.834-.137 36.547-2.384 70.484 14.758 11.877-36.118 38.016-59.074 39.408-60.277l9.804-8.467 9.805 8.467c1.391 1.202 27.531 24.159 39.407 60.278 33.936-17.14 68.648-14.891 70.484-14.759l12.92.945.945 12.92c.17 2.321 3.739 57.298-32.904 96.719z"
-                  />
-                  <path
-                    d="m310.928 250.226c.864 23.625-5.907 46.588-20.177 68.594 18.119-4.412 32.827-12.624 43.933-24.572 17.939-19.3 23.136-44.313 24.555-59.781-12.558 1.182-31.421 4.833-48.317 15.619.001.046.004.092.006.14z"
-                  />
-                </g>
-              </svg>
-              <div class="item__text">
-                <p class="item__title">Bezpečnosť a jasné kroky</p>
-                <p class="item__desc">
-                  Potvrdíme dostupnosť a prevedieme vás procesom.
-                </p>
-              </div>
-            </li>
-            <li class="item">
-              <svg
-                id="Capa_1"
-                enable-background="new 0 0 512 512"
-                height="512"
-                viewBox="0 0 512 512"
-                width="512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g>
-                  <path
-                    d="m255.999 191.736c-9.971 12.054-24.08 33.605-24.955 59.83-.721 21.599 7.664 43.031 24.957 63.875 17.292-20.844 25.678-42.276 24.957-63.875-.877-26.216-14.979-47.766-24.959-59.83z"
-                  />
-                  <path
-                    d="m201.072 250.226c.002-.056.006-.111.008-.167-16.944-10.869-35.733-14.499-48.262-15.648 1.464 15.569 6.718 40.828 24.667 60.017 11.086 11.852 25.738 20.004 43.767 24.394-14.272-22.007-21.043-44.971-20.18-68.596z"
-                  />
-                  <path
-                    d="m373.014 23.761c-49.125 0-92.295 25.487-117.014 63.958-24.719-38.471-67.889-63.958-117.014-63.958-76.76 0-138.986 62.226-138.986 138.986 0 93.253 62.791 187.861 256 325.492 193.209-137.631 256-232.239 256-325.492 0-76.76-62.226-138.986-138.986-138.986zm-16.357 290.91c-23.424 25.2-57.289 37.978-100.657 37.978s-77.234-12.777-100.657-37.978c-36.642-39.421-33.074-94.397-32.904-96.719l.945-12.92 12.92-.945c1.834-.137 36.547-2.384 70.484 14.758 11.877-36.118 38.016-59.074 39.408-60.277l9.804-8.467 9.805 8.467c1.391 1.202 27.531 24.159 39.407 60.278 33.936-17.14 68.648-14.891 70.484-14.759l12.92.945.945 12.92c.17 2.321 3.739 57.298-32.904 96.719z"
-                  />
-                  <path
-                    d="m310.928 250.226c.864 23.625-5.907 46.588-20.177 68.594 18.119-4.412 32.827-12.624 43.933-24.572 17.939-19.3 23.136-44.313 24.555-59.781-12.558 1.182-31.421 4.833-48.317 15.619.001.046.004.092.006.14z"
-                  />
-                </g>
-              </svg>
-              <div class="item__text">
-                <p class="item__title">Regenerácia s rešpektom</p>
-                <p class="item__desc">Telo aj myseľ – bez extrémov a tlaku.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="retreats" id="pobyty">
-        <div class="container">
-          <h2 class="section-title">
-            Vyberte si pobyt, ktorý zodpovedá vašim potrebám
+      <!-- Stats -->
+      <section class="section stats">
+        <div class="shell stats__inner">
+          <h2 class="stats__title">
+            Investice do duševního zdraví zaměstnanců se vyplatí
           </h2>
-
-          <div class="retreat-grid">
-            <article class="retreat-card">
-              <div class="retreat-card__image">
-                <img src="/ayurveda/assets/image-1.avif" alt="Ayurveda Royal Retreat" />
-                <span class="retreat-card__price">2 890 €</span>
-                <a href="#includes" class="btn btn--dark retreat-card__interest"
-                  >Mám záujem</a
-                >
-              </div>
-              <div class="retreat-card__body">
-                <h3 class="retreat-card__title">
-                  Ayurveda Royal Retreat – september 2026
-                </h3>
-                <ul class="retreat-card__meta">
-                  <li>
-                    <svg
-                      id="Layer_1"
-                      enable-background="new 0 0 512 512"
-                      height="20"
-                      viewBox="0 0 512 512"
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        clip-rule="evenodd"
-                        d="m261.863 406.379c243.855-265.586 118.98-398.379-5.893-398.379-124.875 0-249.75 132.793-5.894 398.379 1.57 1.711 3.57 2.59 5.895 2.59 2.321 0 4.321-.879 5.892-2.59zm-158.1-132.415c8.836 0 16 7.163 16 16 0 8.836-7.164 16-16 16h-.008l-21.242 166.035h346.912l-21.242-166.035h-.008c-8.836 0-16-7.164-16-16 0-8.837 7.164-16 16-16h14.027v.06c7.92-.01 14.795 5.879 15.813 13.94l25.154 196.6c.242 1.107.371 2.256.371 3.436 0 8.837-7.164 16-16 16h-383.14v-.06c-.66-.001-1.328-.042-2-.128-8.734-1.104-14.918-9.079-13.813-17.813l25.162-196.68c.338-8.537 7.365-15.355 15.986-15.355zm152.207-181.422c33.707 0 61.031 27.324 61.031 61.031 0 33.705-27.324 61.03-61.031 61.03s-61.031-27.325-61.031-61.03c0-33.707 27.324-61.031 61.031-61.031z"
-                        fill-rule="evenodd"
-                      />
-                    </svg>
-                    <span>India, Kerala</span>
-                  </li>
-                  <li>
-                    <i data-lucide="plane" aria-hidden="true"></i
-                    ><span>Viedeň</span>
-                  </li>
-                  <li>
-                    <i data-lucide="calendar" aria-hidden="true"></i
-                    ><span>17.09.–02.10. 2026</span>
-                  </li>
-                  <li>
-                    <svg
-                      id="Layer_2"
-                      height="20"
-                      viewBox="0 0 512 512"
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      data-name="Layer 2"
-                    >
-                      <g id="Icon">
-                        <path
-                          id="_41"
-                          d="m362 0h-212c-82.84 0-150 67.16-150 150v212c0 82.84 67.16 150 150 150h212c82.84 0 150-67.16 150-150v-212c0-82.84-67.16-150-150-150zm-106 400.79c-13.81 0-25-11.19-25-25v-160c0-13.81 11.19-25 25-25 13.81 0 25 11.19 25 25v160c0 13.81-11.19 25-25 25zm17.68-246.9c-9.76 9.76-25.59 9.76-35.36 0-9.76-9.76-9.76-25.59 0-35.36s25.59-9.76 35.36 0 9.76 25.59 0 35.36z"
-                          data-name="41"
-                        />
-                      </g></svg
-                    ><span
-                      >Cena vrátane letenky.<br />Žiadne skryté poplatky</span
-                    >
-                  </li>
-                </ul>
-                <button id="toogle-1" class="retreat-card__more"
-                  >Viac informácií
-                  <i data-lucide="chevron-down" aria-hidden="true"></i
-                ></button>
-                <div class="retreat-card__toogle">
-                  <span>
-                    Tento luxusný ajurvédsky pobyt je ideálny pre všetkých, ktorí hľadajú hlbokú regeneráciu a obnovu rovnováhy tela a mysle. Počas 14 dní v indickej Kerale vás čaká autentická ajurvédska liečba, masáže, bylinné terapie a joga. Pobyt zahŕňa ubytovanie, transfery, plnú penziu a každodenné ajurvédske procedúry pod vedením skúsených odborníkov. K dispozícii je termín od 17. septembra do 2. októbra. Cena pobytu je 2 890 € vrátane letenky. Využite jedinečnú príležitosť zažiť pravú ajurvédsku liečbu priamo v Indii.
-                  </span>
-                </div>
-              </div>
+          <div class="stats__row">
+            <article class="stat">
+              <p class="stat__num">5x</p>
+              <p class="stat__label">průměrná návratnost investic</p>
+              <p class="stat__source">(Deloitte)</p>
             </article>
-
-            <article class="retreat-card">
-              <div class="retreat-card__image">
-                <img src="/ayurveda/assets/image-2.avif" alt="Poovar Island Resort" />
-                <span class="retreat-card__price">2 570 €</span>
-                <a href="#includes" class="btn btn--dark retreat-card__interest"
-                  >Mám záujem</a
-                >
-              </div>
-              <div class="retreat-card__body">
-                <h3 class="retreat-card__title">
-                  Poovar Island Resort – september 2026
-                </h3>
-                <ul class="retreat-card__meta">
-                  <li>
-                    <svg
-                      id="Layer_1"
-                      enable-background="new 0 0 512 512"
-                      height="20"
-                      viewBox="0 0 512 512"
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        clip-rule="evenodd"
-                        d="m261.863 406.379c243.855-265.586 118.98-398.379-5.893-398.379-124.875 0-249.75 132.793-5.894 398.379 1.57 1.711 3.57 2.59 5.895 2.59 2.321 0 4.321-.879 5.892-2.59zm-158.1-132.415c8.836 0 16 7.163 16 16 0 8.836-7.164 16-16 16h-.008l-21.242 166.035h346.912l-21.242-166.035h-.008c-8.836 0-16-7.164-16-16 0-8.837 7.164-16 16-16h14.027v.06c7.92-.01 14.795 5.879 15.813 13.94l25.154 196.6c.242 1.107.371 2.256.371 3.436 0 8.837-7.164 16-16 16h-383.14v-.06c-.66-.001-1.328-.042-2-.128-8.734-1.104-14.918-9.079-13.813-17.813l25.162-196.68c.338-8.537 7.365-15.355 15.986-15.355zm152.207-181.422c33.707 0 61.031 27.324 61.031 61.031 0 33.705-27.324 61.03-61.031 61.03s-61.031-27.325-61.031-61.03c0-33.707 27.324-61.031 61.031-61.031z"
-                        fill-rule="evenodd"
-                      />
-                    </svg>
-                    <span>India, Kerala</span>
-                  </li>
-                  <li>
-                    <i data-lucide="plane" aria-hidden="true"></i
-                    ><span>Viedeň</span>
-                  </li>
-                  <li>
-                    <i data-lucide="calendar" aria-hidden="true"></i
-                    ><span>13.09.–28.09. 2026</span>
-                  </li>
-                  <li>
-                    <svg
-                      id="Layer_2"
-                      height="20"
-                      viewBox="0 0 512 512"
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      data-name="Layer 2"
-                    >
-                      <g id="Icon">
-                        <path
-                          id="_41"
-                          d="m362 0h-212c-82.84 0-150 67.16-150 150v212c0 82.84 67.16 150 150 150h212c82.84 0 150-67.16 150-150v-212c0-82.84-67.16-150-150-150zm-106 400.79c-13.81 0-25-11.19-25-25v-160c0-13.81 11.19-25 25-25 13.81 0 25 11.19 25 25v160c0 13.81-11.19 25-25 25zm17.68-246.9c-9.76 9.76-25.59 9.76-35.36 0-9.76-9.76-9.76-25.59 0-35.36s25.59-9.76 35.36 0 9.76 25.59 0 35.36z"
-                          data-name="41"
-                        />
-                      </g></svg
-                    ><span
-                      >Cena vrátane letenky.<br />Žiadne skryté poplatky</span
-                    >
-                  </li>
-                </ul>
-                <button id="toogle-2" class="retreat-card__more"
-                  >Viac informácií
-                  <i data-lucide="chevron-down" aria-hidden="true"></i
-                ></button>
-                <div class="retreat-card__toogle">
-                  <span>
-                    Tento 16-dňový skupinový ajurvédsky pobyt sa uskutoční v rezorte Poovar Island Resort v južnej Indii, v oblasti Kérala. Rezort leží na ostrove neďaleko Trivandrumu a obklopujú ho kokosové palmy, zlatá pláž, lagúna a bujná tropická príroda. Pobyt je určený pre všetkých, ktorí túžia po hlbokej regenerácii tela aj mysle, tradičných ajurvédskych procedúrach, joge, meditácii a pokojnom oddychu v harmonickom prostredí. Termín pobytu je od 13. septembra do 28. septembra 2026. Cena pobytu je 2 570 €. Rezort ponúka štýlové chatky v tradičnom kéralskom dizajne, ajurvédske centrum s 13 terapeutickými miestnosťami, bazén, reštauráciu a možnosť výletov do okolia. Pobyt je ideálnou voľbou pre dovolenku plnú pokoja, očisty, vitality a návratu k vnútornej rovnováhe.                   </span>
-                </div>
-              </div>
+            <article class="stat">
+              <p class="stat__num">−60%</p>
+              <p class="stat__label">nižší fluktuace zaměstnanců</p>
+              <p class="stat__source">(HBR)</p>
+            </article>
+            <article class="stat stat--wide">
+              <p class="stat__num">−43%</p>
+              <p class="stat__label">
+                nižší průměrný neproduktivní čas zaměstnance tři měsíce po EAP
+                poradenství
+              </p>
+              <p class="stat__source">
+                (EAPs show strong ROI: Report | Canadian HR Reporter)
+              </p>
             </article>
           </div>
-
-          <a
-            href="https://ayurvedskepobyty.sk/pobyty/?_session=019fd6cc-9199-7038-b7f1-e15784c222d1"
-            class="all-retreats-link"
-            >Všetky pobyty <span aria-hidden="true">→</span></a
-          >
         </div>
       </section>
 
-      <section class="includes" id="includes">
-        <div class="container includes__inner">
-          <div class="includes__copy">
-            <h2 class="title-md">Čo pobyt zahŕňa</h2>
-            <p class="desc">
-              Všetko je nastavené tak, aby ste sa mohli skutočne uvoľniť.
-              Získate jasný plán, odborné vedenie a priestor na regeneráciu.
-            </p>
+      <!-- Services -->
+      <section class="section services" id="sluzby">
+        <div class="shell services__inner">
+          <div class="services__intro">
+            <h2 class="services__heading">Co nabízíme?</h2>
+            <a href="#form" class="btn btn--dark">Rezervovat konzultaci</a>
           </div>
-          <ul class="includes__panel">
-            <li class="item">
-              <i class="item__icon" data-lucide="users" aria-hidden="true"></i>
-              <div class="item__text">
-                <p class="item__title">Osobná konzultácia</p>
-                <p class="item__desc">
-                  Pomôžeme vám zvoliť správny smer – bezpečne a zrozumiteľne.
+          <div class="services__panel">
+            <div class="service">
+              <span class="service__badge" aria-hidden="true">24</span>
+              <div>
+                <p class="service__title">Nepřetržitá krizová linka (24/7)</p>
+                <p class="service__desc">
+                  Okamžitá pomoc v krizi nebo při akutním stresu.
                 </p>
               </div>
-            </li>
-            <li class="item">
+            </div>
+            <div class="service">
               <i
-                class="item__icon"
-                data-lucide="book-open"
+                class="service__icon"
+                data-lucide="message-square-text"
                 aria-hidden="true"
               ></i>
-              <div class="item__text">
-                <p class="item__title">Individuálne terapie</p>
-                <p class="item__desc">
-                  Program sa prispôsobuje reakciám tela a priebehu pobytu.
+              <div>
+                <p class="service__title">Psychologické poradenství</p>
+                <p class="service__desc">
+                  Telefonicky, online nebo osobně – podpora duševního zdraví.
                 </p>
               </div>
-            </li>
-            <li class="item">
+            </div>
+            <div class="service">
               <i
-                class="item__icon"
-                data-lucide="utensils"
+                class="service__icon"
+                data-lucide="scale"
                 aria-hidden="true"
               ></i>
-              <div class="item__text">
-                <p class="item__title">Ajurvédska strava</p>
-                <p class="item__desc">
-                  Sprievod, komunikácia a podpora na mieste.
+              <div>
+                <p class="service__title">Právní poradenství</p>
+                <p class="service__desc">
+                  Praktické rady pro životní situace (soudní spory,
+                  spotřebitelské právo, rodinné právo).
                 </p>
               </div>
-            </li>
-            <li class="item">
-              <i class="item__icon" data-lucide="leaf" aria-hidden="true"></i>
-              <div class="item__text">
-                <p class="item__title">Regenerácia s rešpektom</p>
-                <p class="item__desc">
-                  Priestor na spomalenie, spánok a návrat k rovnováhe.
+            </div>
+            <div class="service">
+              <i
+                class="service__icon"
+                data-lucide="euro"
+                aria-hidden="true"
+              ></i>
+              <div>
+                <p class="service__title">Finanční poradenství</p>
+                <p class="service__desc">
+                  Organizace financí, daně, exekuce – snížení stresu z peněz.
                 </p>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="service">
+              <i
+                class="service__icon"
+                data-lucide="users"
+                aria-hidden="true"
+              ></i>
+              <div>
+                <p class="service__title">Podpora pro management a HR</p>
+                <p class="service__desc">
+                  Konzultace, doporučení a nasměrování v citlivých situacích.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <i
+                class="service__icon"
+                data-lucide="message-circle-more"
+                aria-hidden="true"
+              ></i>
+              <div>
+                <p class="service__title">A více...</p>
+                <p class="service__desc">
+                  Rozšířené služby podle potřeb firmy a zaměstnanců.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="testimonials" id="recenzie">
-        <div class="container">
-          <h2 class="title-lg testimonials__title">
-            Ako pobyt vnímali tí, ktorí ho zažili
-          </h2>
-          <p class="testimonials__subtitle">
-            Skúsenosti sú často o pocite: pokoj, energia, lepší spánok. Presne
-            to, čo ľudia po dlhom strese najviac potrebujú.
+      <!-- Company testimonials -->
+      <section class="section testimonials" id="reference">
+        <div class="shell testimonials__inner">
+          <article class="testimonial">
+            <div class="testimonial__left">
+              <div class="testimonial__logo">
+                <img src="/eap/assets/logo-lkq.avif" alt="LKQ" />
+              </div>
+              <div>
+                <p class="testimonial__name">Radka Zídková</p>
+                <p class="testimonial__role">HR Generalist</p>
+                <p class="testimonial__company">
+                  CEE, LKQ Central and Eastern Europe
+                </p>
+              </div>
+            </div>
+            <p class="testimonial__quote">
+              S ENEF spolupracujeme již delší dobu a jejich služby představují
+              pro naše zaměstnance velkou přidanou hodnotu. Ohlasy z firmy jsou
+              velmi pozitivní – zaměstnanci oceňují jak profesionální
+              psychologickou podporu, tak i pomoc v oblasti financí či práva.
+              Díky skvělé komunikaci, rychlé odezvě v případě potřeby a lidskému
+              přístupu této společnosti vidíme reálný dopad na vyšší spokojenost
+              a stabilitu našeho týmu. ENEF považujeme za spolehlivého partnera
+              v oblasti péče o zaměstnance.
+            </p>
+          </article>
+          <article class="testimonial">
+            <div class="testimonial__left">
+              <div class="testimonial__logo">
+                <img src="/eap/assets/logo-ikea.avif" alt="IKEA" />
+              </div>
+              <div>
+                <p class="testimonial__name">Edita Zámečníkova</p>
+                <p class="testimonial__role">
+                  People &amp; Culture Experience Leader
+                </p>
+                <p class="testimonial__company">
+                  IKEA Components s.r.o. Slovensko
+                </p>
+              </div>
+            </div>
+            <p class="testimonial__quote">
+              Se společností ENEF spolupracujeme už řadu let a této spolupráce
+              si velmi vážíme. Naši zaměstnanci od nich dostávají profesionální
+              podporu, porozumění a pomoc v situacích, kdy ji nejvíce potřebují.
+              Pro náš byznys jsou kvalitní výkonnostní výsledky klíčové. Jsem
+              přesvědčená, že jich lze dlouhodobě udržitelně dosahovat díky
+              zaměstnancům, kteří se cítí bezpečně, mají důvěru a jistotu. Ve
+              spolupráci s týmem ENEF se nám to společně daří. 😊
+            </p>
+          </article>
+          <article class="testimonial">
+            <div class="testimonial__left">
+              <div class="testimonial__logo">
+                <img src="/eap/assets/logo-ing.avif" alt="ING" />
+              </div>
+              <div>
+                <p class="testimonial__name">Eva Proksová</p>
+                <p class="testimonial__role">Payroll &amp; Benefit Expert II</p>
+                <p class="testimonial__company">ING Hubs Slovakia</p>
+              </div>
+            </div>
+            <p class="testimonial__quote">
+              EAP program od společnosti ENEF nám výrazně pomohl zlepšit
+              pracovní pohodu i celkovou atmosféru v týmu. Zaměstnanci oceňují
+              možnost diskrétně konzultovat osobní i pracovní problémy s
+              odborníky. Díky programu se zvýšila spokojenost i produktivita.
+              Určitě jej doporučujeme každému zaměstnavateli, který chce
+              podpořit duševní zdraví svých lidí.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Value cards -->
+      <section class="section values">
+        <div class="shell shell--md values__inner">
+          <article class="value">
+            <img
+              class="value__icon"
+              src="/eap/assets/value-image-1.avif"
+              alt=""
+              aria-hidden="true"
+            />
+            <p class="value__text">
+              <strong>Více než 40 000 lidí, o</strong><br />jejichž pohodu se
+              dlouhodobě staráme
+            </p>
+          </article>
+          <article class="value">
+            <img
+              class="value__icon"
+              src="/eap/assets/value-image-2.avif"
+              alt=""
+              aria-hidden="true"
+            />
+            <p class="value__text">
+              <strong>100+ odborníků</strong> v Česku a na Slovensku
+            </p>
+          </article>
+          <article class="value">
+            <img
+              class="value__icon"
+              src="/eap/assets/value-image-3.avif"
+              alt=""
+              aria-hidden="true"
+            />
+            <p class="value__text">
+              Podporujeme <strong>více než 150 firem</strong> v Česku a na
+              Slovensku
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact card -->
+      <section class="section">
+        <div class="shell shell--md">
+          <div class="contact-card">
+            <img
+              class="contact-card__photo"
+              src="/eap/assets/person-image.avif"
+              alt="Eva Bartošíková, jednatelka ENEF"
+            />
+            <div class="contact-card__body">
+              <div>
+                <p class="contact-card__title">Máte zájem se dozvít víc?</p>
+                <p class="contact-card__subtitle">Kontaktujte nás.</p>
+              </div>
+              <div class="contact-card__info">
+                <div class="contact-card__col">
+                  <span class="contact-card__name">Eva Bartošíková</span>
+                  <span class="contact-card__jobrole">Jednatelka</span>
+                </div>
+                <div class="contact-card__col">
+                  <a class="contact-card__phone" href="tel:+420731680421"
+                    >+420 731 680</a
+                  >
+                  <a
+                    class="contact-card__email"
+                    href="mailto:e.bartosikova@enefservices.cz"
+                    >e.bartosikova@enefservices.cz</a
+                  >
+                </div>
+              </div>
+              <a href="#form" class="btn btn--dark">Rezervovat konzultaci</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- People reviews -->
+      <section class="section reviews">
+        <div class="shell reviews__inner">
+          <article class="review">
+            <p class="review__name">Katarína M.</p>
+            <p class="review__quote">
+              Děkuji paní psycholožce, velmi mi pomohla vyrovnat se s nastalou
+              životní situací, získat odvahu a udělat správné kroky.
+            </p>
+          </article>
+          <article class="review">
+            <p class="review__name">Petra S.</p>
+            <p class="review__quote">
+              Paní psycholožka dokázala během jediného sezení do hloubky
+              porozumět mému problému, projevit mi soucit a přinést silnou
+              přidanou hodnotu — pomohla mi najít odpovědi v sobě. Děkuji za
+              tuto možnost, velmi si toho vážím.
+            </p>
+          </article>
+          <article class="review">
+            <p class="review__name">Sofie P.</p>
+            <p class="review__quote">
+              Sezení předčila má očekávání a jediné, co bych změnila, je to, že
+              bych se přihlásila už dříve. Velké plus je, že tuto možnost vůbec
+              mám, a přístup paní Uhríkové byl na jedničku — velmi mi pomohla.
+            </p>
+          </article>
+          <article class="review">
+            <p class="review__name">Natálie H.</p>
+            <p class="review__quote">
+              S ENEF mám výbornou zkušenost. Obrátila jsem se na ně ve chvíli,
+              kdy jsem řešila složitou finanční situaci, a jejich poradce mi
+              pomohl přehledně zhodnotit možnosti, nastavit realistický plán a
+              zvládnout situaci bez zbytečného stresu. Přístup byl velmi
+              profesionální, lidský a podporující. Moc děkuji!
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Steps -->
+      <section class="section steps" id="jak-probiha">
+        <div class="shell shell--sm steps__inner">
+          <h2 class="steps__heading">Jak probíhá bezplatná konzultace</h2>
+          <p class="steps__subtitle">
+            Nezávazná a plně důvěrná – cílem je zjistit potřeby a navrhnout
+            vhodný rozsah EAP.
           </p>
-
-          <div class="testimonial-row">
-            <blockquote class="testimonial">
-              <p class="testimonial__quote">
-                Moja najlepšia investícia do duševného a fyzického zdravia -
-                ajurvedský pobyt. 14 dní oddychu, resetu hlavy, úžasných ľudí… V
-                Indii sa všetci usmievajú a sú v pohode. Strava a liečebné
-                procedúry boli na vysokej úrovni, taktiež prístup lekárov bol
-                špičkový. A v neposlednom rade aj skvelá organizácia Katky Masri
-                - ďakujem veľmi 🙏 Odporúčam všetkými desiatimi absolvovať pobyt
-                práve cez Katku v Indii 😊
+          <div class="steps__row">
+            <article class="step">
+              <p class="step__num">1.</p>
+              <p class="step__title">Autenticita</p>
+              <p class="step__desc">
+                Lidský, bezpečný prostor – bez stigmat a zbytečné formálnosti.
               </p>
-              <footer class="testimonial__author">Zuzana K.</footer>
-            </blockquote>
-            <blockquote class="testimonial">
-              <p class="testimonial__quote">
-                Strávila som s kamarátkou 14 dní na Ajurvédskom pobyte v Nattika
-                Beach Resort v južnej Indii. Asi prvýkrát som zažila situáciu,
-                keď skutočnosť bola krajšia ako na obrázkoch, ktoré som videla
-                pred kúpením pobytu. Ajurvédsky Resort bola jedna krásna
-                obrovská záhrada, starostlivosť bola výborná, ľudia boli veľmi
-                príjemní. Lekári sa snažili pomôcť vo všetkom. Ale čo je
-                najdôležitejšie - telesne aj duševne sme sa cítili ako
-                znovuzrodené. Naozaj vrelo odporúčam ❤️
+            </article>
+            <article class="step">
+              <p class="step__num">2.</p>
+              <p class="step__title">Péče</p>
+              <p class="step__desc">
+                Empatický přístup, důvěrnost a anonymita jsou základem služby.
               </p>
-              <footer class="testimonial__author">Maria K.</footer>
-            </blockquote>
-            <blockquote class="testimonial">
-              <p class="testimonial__quote">
-                Krásne miesto, plne úžasných ľudí, ktorí Vám v každej radosti
-                pomôžu, sú láskaví a šťastní. Taktiež by som sa chcela veľmi
-                pekne poďakovať Katke za jej ochotu, sem tam aj trpezlivosť s
-                nami vibrácie 🙂 zvládla to na 1“! V prípade, že sa neviete
-                rozhodnúť, či podstúpiť takýto výlet/zájazd, určite neváhajte a
-                choďte! Bolo to najlepšie rozhodnutie aké som mohla spraviť a aj
-                vďaka Katke som sa mohla tohto úžasného pobytu zúčastniť. V
-                prípade akýchkoľvek otázok neváhajte Katku kontaktovať, s
-                radosťou Vám pomôže vybrať ten najlepší pobyt práve pre Vás.
-                Ďakujem a odporúčam všetkými DVADSIATIMI 🖐️
+            </article>
+            <article class="step">
+              <p class="step__num">3.</p>
+              <p class="step__title">Profesionalita</p>
+              <p class="step__desc">
+                Kvalifikovaní odborníci, etické standardy, průběžné vzdělávání.
               </p>
-              <footer class="testimonial__author">Michaela R.</footer>
-            </blockquote>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="story" id="o-nas">
-        <div class="container">
-          <h2 class="title-lg story-title">Môj príbeh</h2>
-          <div class="story__row">
-            <figure class="story__photo">
-              <img src="/ayurveda/assets/image-3.avif" alt="Katarína Masri" />
-              <figcaption>
-                <span class="story__name">Katarína Masri</span>
-                <span class="story__role"
-                  >Zakladateľka projektu Ayurveda4you</span
-                >
-              </figcaption>
-            </figure>
-            <p class="story__paragraph">
-              <strong>Katarína Masri</strong> objavila ajurvédu pred viac než 15
-              rokmi a od tej doby organizuje ajurvédske pobyty v Indii. Viac ako
-              30 rokov pôsobí v cestovnom ruchu a každý rok osobne sprevádza
-              klientov počas ich liečby v Indii. Je presvedčená, že ajurvéda je
-              cestou k rovnováhe tela a mysle, ktorú odovzdáva každému
-              účastníkovi. S tímom vyberajú overené rezorty a poskytujú
-              kompletný servis, vrátane leteniek, víz a poistenia. Cieľom je
-              umožniť harmonický reštart v kolíske ajurvédy a ponúknuť klientom
-              skúsenosť plnú regenerácie, pokoja a nových poznatkov.
-            </p>
+      <!-- FAQ -->
+      <section class="section faq" id="faq">
+        <div class="shell shell--xs faq__inner">
+          <h2 class="faq__heading">Nejčastější otázky o EAP</h2>
+          <div class="faq__list">
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                Jaký druh pomoci poskytujeme v rámci programu EAP?
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+              </button>
+              <div class="faq-item__a">
+                <p>
+                  Poradenství v oblasti duševního a fyzického zdraví. Praktické
+                  poradenství v otázkách právních a finančních záležitostí.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                Kdo může využívat program EAP?
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+              </button>
+              <div class="faq-item__a">
+                <p>
+                  Nejen zaměstnanci, ale také jejich rodinní příslušníci a
+                  partneři ze společné domácnosti.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                Jak důvěrný je program EAP?
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+              </button>
+              <div class="faq-item__a">
+                <p>
+                  EAP program je důvěrný, anonymní a poskytovaný externě, a
+                  proto je ze strany zaměstnanců lépe přijímán a využíván než
+                  poradenství poskytované přímo u zaměstnavatele.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                Jakým způsobem EAP pomáhá zaměstnancům?
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+              </button>
+              <div class="faq-item__a">
+                <p>
+                  Telefonická linka – k dispozici 24/7 pro zodpovězení dotazů k
+                  EAP nebo pro poskytnutí okamžité pomoci. Konzultace s poradcem
+                  osobně, online i telefonicky – rychlá podpora od
+                  kvalifikovaných odborníků. Léčba mimo EAP – v případě potřeby
+                  doporučení a pomoc s vyhledáním odborníka pro dlouhodobou
+                  léčbu nebo podporu.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                Nenašli jste odpověď?
+                <i data-lucide="chevron-down" aria-hidden="true"></i>
+              </button>
+              <div class="faq-item__a">
+                <p>
+                  Vyplňte prosím náš kontaktní formulář a dejte nám vědět, jak
+                  vám můžeme pomoci.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <hr class="divider" />
-
-      <section class="contact" id="kontakt">
-        <div class="container contact__inner">
-          <div class="contact__copy">
-            <h2 class="title-lg">Požiadajte o rezerváciu pobytu</h2>
-            <p class="desc">
-              Vyplňte jednoduchý formulár a ozveme sa vám späť. Potvrdíme
-              dostupnosť termínov a dohodneme ďalšie kroky.
-            </p>
-            <p class="response-note">
-              Zvyčajne odpovedáme do 24 hodín (v pracovné dni).
-            </p>
-          </div>
+      <!-- Form -->
+      <section class="section form-section" id="form">
+        <div class="shell form-section__inner">
+          <h2 class="form-section__heading">
+            Zlepšete pohodu a produktivitu vašich zaměstnanců s naším EAP
+            programem.
+          </h2>
 
           <form
-            class="contact-form"
+            class="eap-form"
             id="contact-form"
             name="contact"
             method="POST"
@@ -595,111 +531,160 @@
             novalidate
           >
             <input type="hidden" name="form-name" value="contact" />
+
             <div class="field">
-              <label for="name">Meno a priezvisko</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                aria-describedby="name-error"
-              />
-              <span class="field__error" id="name-error" role="alert"></span>
+              <label class="field__label" for="name">Jméno a příjmení</label>
+              <div class="field__control">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Napište své jméno"
+                  required
+                  aria-describedby="name-error"
+                />
+                <span class="field__error" id="name-error" role="alert"></span>
+              </div>
             </div>
+
             <div class="field">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                aria-describedby="email-error"
-              />
-              <span class="field__error" id="email-error" role="alert"></span>
+              <label class="field__label" for="company">Firma</label>
+              <div class="field__control">
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  placeholder="Název firmy"
+                  required
+                  aria-describedby="company-error"
+                />
+                <span
+                  class="field__error"
+                  id="company-error"
+                  role="alert"
+                ></span>
+              </div>
             </div>
+
             <div class="field">
-              <label for="phone">Telefón</label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                aria-describedby="phone-error"
-              />
-              <span class="field__error" id="phone-error" role="alert"></span>
+              <label class="field__label" for="email">Email</label>
+              <div class="field__control">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="napr. jana@email.cz"
+                  required
+                  aria-describedby="email-error"
+                />
+                <span class="field__error" id="email-error" role="alert"></span>
+              </div>
             </div>
+
             <div class="field">
-              <label for="type">O aký druh pobytu máte záujem?</label>
-              <select id="type" name="type" class="field__select">
-                <option>Individuálny</option>
-                <option>Skupinový</option>
-                <option>Ešte neviem</option>
-              </select>
+              <label class="field__label" for="phone">Telefon</label>
+              <div class="field__control">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+420"
+                  aria-describedby="phone-error"
+                />
+                <span class="field__error" id="phone-error" role="alert"></span>
+              </div>
             </div>
+
             <div class="field">
-              <label for="message">Správa</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                aria-describedby="message-error"
-              ></textarea>
-              <span class="field__error" id="message-error" role="alert"></span>
+              <label class="field__label" for="employees"
+                >Počet zaměstnanců</label
+              >
+              <div class="field__control">
+                <select id="employees" name="employees">
+                  <option value="1-20">1-20</option>
+                  <option value="21-50">21-50</option>
+                  <option value="51-100">51-100</option>
+                  <option value="101-250">101-250</option>
+                  <option value="250+">250+</option>
+                </select>
+              </div>
             </div>
+
+            <div class="field field--top">
+              <label class="field__label" for="message"
+                >S čím vám můžeme pomoci?</label
+              >
+              <div class="field__control">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Zpráva"
+                  aria-describedby="message-error"
+                ></textarea>
+                <span
+                  class="field__error"
+                  id="message-error"
+                  role="alert"
+                ></span>
+              </div>
+            </div>
+
             <p style="display: none">
               <label>
-                Nevypĺňajte toto pole:
+                Nevyplňujte toto pole:
                 <input name="bot-field" tabindex="-1" autocomplete="off" />
               </label>
             </p>
-            <button
-              type="submit"
-              class="btn btn--dark submit-button"
-            >
-              <span class="submit-button__spinner" aria-hidden="true"></span>
-              <span class="submit-button__label">Odoslať správu</span>
-            </button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+
+            <div class="submit-row">
+              <button type="submit" class="submit-button">
+                <span class="submit-button__spinner" aria-hidden="true"></span>
+                <span class="submit-button__label">Odeslat správu</span>
+              </button>
+            </div>
+            <p
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
           </form>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container footer__inner">
+      <div class="shell footer__inner">
         <div class="footer__brand">
-          <p class="logo logo--light">ayurvédske pobyty</p>
+          <p class="footer__copyright">© 2026. ENEF CONSULTING s.r.o.</p>
           <p class="footer__tagline">
-            Individuálne ajurvédske pobyty zamerané na regeneráciu tela a mysle
-            pod odborným vedením.
+            Zdravý zaměstnanec<br />je klíčem k úspěchu.
           </p>
-          <ul class="footer__links">
-            <li>
-              <p
-                >Podmienky ochrany osobných údajov
-                <span aria-hidden="true">→</span></
-              >
-            </li>
-            <li>
-              <p>Cookies <span aria-hidden="true">→</span></p>
-            </li>
-          </ul>
+          <a class="footer__legal"
+            >Podmínky ochrany osobních údajů
+            <span aria-hidden="true">→</span></a
+          >
         </div>
-        <div class="footer__contacts">
-          <h3>KONTAKTY</h3>
-          <p>Hlavná 18, 040 01, Košice</p>
-          <p>+421 918 646 263 (Whatsapp)</p>
-          <p>+421 940 987 297 (Whatsapp)</p>
-          <p>
-            <a href="mailto:info@ayurvedskepobyty.sk"
-              >info@ayurvedskepobyty.sk</a
-            >
-          </p>
+        <div class="footer__right">
+          <div class="footer__contacts">
+            <h3>KONTAKTY</h3>
+            <p>Na Poříčí 1041/12, 110 00 Praha 1</p>
+            <p>+420 731 680 421</p>
+            <p>
+              <a href="mailto:info@enefservices.cz">info@enefservices.cz</a>
+            </p>
+          </div>
+          <img
+            class="footer__badge"
+            src="/eap/assets/eaef-member.avif"
+            alt="Člen EAEF – European Association of Employee Assistance"
+          />
         </div>
       </div>
     </footer>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    <script src="/ayurveda/script/index.js"></script>
-    <script src="/ayurveda/script/form.js"></script>
+    <script src="/eap/script/index.js"></script>
+    <script src="/eap/script/form.js"></script>
   </body>
 </html>
