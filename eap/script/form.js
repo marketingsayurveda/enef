@@ -2,7 +2,7 @@
 //
 // El envío usa Netlify Forms: no hay endpoint externo ni credenciales.
 // Netlify detecta el formulario al desplegar (por data-netlify="true" en el
-// marcado) y guarda los envíos; el correo de aviso a info@ayurvedskepobyty.sk
+// marcado) y guarda los envíos; el correo de aviso a info@enefservices.cz
 // se configura en el panel de Netlify (Forms > Form notifications), no aquí.
 //
 // Ojo: esto solo funciona en el sitio desplegado en Netlify. En local o en
@@ -10,27 +10,31 @@
 const FORM_NAME = "contact";
 
 // Página de agradecimiento a la que se redirige tras un envío correcto.
-const THANKS_URL = "/ayurveda/thanks.html";
+const THANKS_URL = "/eap/thanks.html";
 
 // Margen antes de redirigir para que GTM alcance a enviar el evento de éxito.
 const REDIRECT_DELAY = 400;
 
 const MESSAGES = {
-  nameRequired: "Zadajte vaše meno a priezvisko.",
-  nameShort: "Meno musí mať aspoň 2 znaky.",
-  emailRequired: "Zadajte váš email.",
-  emailInvalid: "Zadajte platnú emailovú adresu.",
-  phoneInvalid: "Zadajte platné telefónne číslo.",
-  messageLong: "Správa je príliš dlhá (max. 2000 znakov).",
-  sending: "Odosielam…",
+  nameRequired: "Zadejte své jméno a příjmení.",
+  nameShort: "Jméno musí mít alespoň 2 znaky.",
+  companyRequired: "Zadejte název firmy.",
+  emailRequired: "Zadejte svůj email.",
+  emailInvalid: "Zadejte platnou emailovou adresu.",
+  phoneRequired: "Zadejte telefonní číslo.",
+  phoneInvalid: "Zadejte platné telefonní číslo.",
+  messageRequired: "Napište nám, s čím vám můžeme pomoci.",
+  messageLong: "Zpráva je příliš dlouhá (max. 2000 znaků).",
+  sending: "Odesílám…",
   error:
-    "Správu sa nepodarilo odoslať. Skúste to znova alebo nám napíšte na info@ayurvedskepobyty.sk.",
+    "Zprávu se nepodařilo odeslat. Zkuste to znovu nebo nám napište na info@enefservices.cz.",
 };
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const PHONE_PATTERN = /^\+?[0-9\s\-()]{9,20}$/;
 const MESSAGE_MAX_LENGTH = 2000;
 
+// Todos los campos son obligatorios: cada uno devuelve su mensaje si está vacío.
 const validateField = (input) => {
   const value = input.value.trim();
 
@@ -39,16 +43,22 @@ const validateField = (input) => {
     if (value.length < 2) return MESSAGES.nameShort;
   }
 
+  if (input.name === "company") {
+    if (!value) return MESSAGES.companyRequired;
+  }
+
   if (input.name === "email") {
     if (!value) return MESSAGES.emailRequired;
     if (!EMAIL_PATTERN.test(value)) return MESSAGES.emailInvalid;
   }
 
   if (input.name === "phone") {
-    if (value && !PHONE_PATTERN.test(value)) return MESSAGES.phoneInvalid;
+    if (!value) return MESSAGES.phoneRequired;
+    if (!PHONE_PATTERN.test(value)) return MESSAGES.phoneInvalid;
   }
 
   if (input.name === "message") {
+    if (!value) return MESSAGES.messageRequired;
     if (value.length > MESSAGE_MAX_LENGTH) return MESSAGES.messageLong;
   }
 
@@ -68,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const submitButton = form.querySelector(".submit-button");
   const submitLabel = submitButton.querySelector(".submit-button__label");
   const submitLabelText = submitLabel.textContent.trim();
-  const fields = ["name", "email", "phone", "message"]
+  const fields = ["name", "company", "email", "phone", "message"]
     .map((name) => form.querySelector(`[name="${name}"]`))
     .filter(Boolean);
 
@@ -140,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const retreatType = form.querySelector("[name='type']").value;
+    const employees = form.querySelector("[name='employees']")?.value ?? "";
 
     pushEvent({ event: "form_submit_attempt", form_name: FORM_NAME });
     setLoading(true);
@@ -168,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
       pushEvent({
         event: "form_submit_success",
         form_name: FORM_NAME,
-        retreat_type: retreatType,
+        employees,
       });
 
       // El botón sigue en loading hasta que el navegador cambie de página.
