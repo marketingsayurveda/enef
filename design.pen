@@ -1,0 +1,3063 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "S5lDf",
+      "x": 920,
+      "y": 0,
+      "name": "EAP Landing",
+      "width": 1920,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ub5aY",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": [
+            26,
+            255
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fkQTN",
+              "name": "ENEF Logo",
+              "clip": true,
+              "width": 150,
+              "height": 44,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "xK8kb",
+                  "x": 6.3402,
+                  "y": 4.0619,
+                  "geometry": "M2.01031 0l27.06186 0c0.92783 0 1.70103 0.7732 1.70102 2.16495l0 4.48454c0 1.08247-0.77319 2.01031-2.01031 2.0103l-26.75257 0c-1.08248 0-2.01031-0.7732-2.01031-2.01031l0-4.48453c0-1.23711 1.08247-2.16495 2.01031-2.16495z",
+                  "fill": "#A1D91B",
+                  "width": 30.7732,
+                  "height": 8.6598
+                },
+                {
+                  "type": "path",
+                  "id": "JYKXY",
+                  "x": 6.3402,
+                  "y": 17.6701,
+                  "geometry": "M2.01031 0l24.43298 0c1.08248 0 2.01032 0.92784 2.01032 2.01031l0 4.79381c0 1.08247-0.77319 2.01031-2.01032 2.01031l-24.43298 0c-1.08248 0-2.01031-0.77319-2.01031-1.85567l0-4.79381c0-1.23711 0.92783-2.16495 2.01031-2.16495z",
+                  "fill": "#A1D91B",
+                  "width": 28.4536,
+                  "height": 8.8144
+                },
+                {
+                  "type": "path",
+                  "id": "j9D9E7",
+                  "x": 6.3402,
+                  "y": 31.2784,
+                  "geometry": "M2.01031 0l26.90722 0c0.92783 0 1.85566 0.77319 1.85566 1.85567l0 5.25773c0 1.08248-0.92783 2.01031-1.85566 2.01031l-26.90722 0c-1.08248 0-2.01031-0.92783-2.01031-1.85567l0-4.48454c0-1.08247 0.92783-2.01031 2.01031-2.01031l0-0.77319z",
+                  "fill": "#A1D91B",
+                  "width": 30.7732,
+                  "height": 9.1237
+                },
+                {
+                  "type": "path",
+                  "id": "ooYUA",
+                  "x": 41.7526,
+                  "y": 4.0619,
+                  "geometry": "M0 2.01031c0-0.92783 0.61856-2.01031 2.01031-2.01031l5.56701 0c1.08247 0 1.85567 0.7732 2.62886 1.85567l13.29897 18.5567 0-18.40206c0-0.92783 0.77319-2.01031 1.85568-2.01031l5.41237 0c0.92783 0 2.0103 0.7732 2.0103 2.01031l0 31.23711c0 1.85567-0.61855 2.7835-2.0103 2.78351l-5.41237 0c-1.08249 0-2.01031-0.46392-2.62887-1.39176l-13.14434-19.02061 0 18.71133c0 0.92784-0.77319 1.70103-1.85566 1.70104l-5.87629 0c-0.92783 0-1.85567-0.77319-1.85567-1.85568l0-32.16494 0 0z",
+                  "fill": "#A1D91B",
+                  "width": 32.7835,
+                  "height": 36.0309
+                },
+                {
+                  "type": "path",
+                  "id": "RD76q",
+                  "x": 79.0206,
+                  "y": 4.2165,
+                  "geometry": "M2.01031 0l27.06185 0c0.92784 0 1.70103 0.7732 1.70103 2.01031l0 4.48454c0 1.08247-0.77319 1.85567-2.01031 1.85567l-26.75257 0c-1.23712 0-2.01031-0.92784-2.01031-1.85567l0-4.48454c0-1.23711 0.92783-2.01031 2.01031-2.01031z",
+                  "fill": "#A1D91B",
+                  "width": 30.7732,
+                  "height": 8.3505
+                },
+                {
+                  "type": "path",
+                  "id": "E6tsOC",
+                  "x": 79.0206,
+                  "y": 17.6701,
+                  "geometry": "M1.85567 0l24.58763 0c1.08247 0 2.01032 0.7732 2.01031 2.01031l0 4.94845c0 1.08247-0.92784 1.85567-1.85566 1.85567l-24.74228 0c-1.08247 0-1.85567-0.77319-1.85567-1.70103l0-4.94845c0-1.39175 1.08247-2.01031 1.85567-2.16495l0 0z",
+                  "fill": "#A1D91B",
+                  "width": 28.4536,
+                  "height": 8.8144
+                },
+                {
+                  "type": "path",
+                  "id": "Y40o30",
+                  "x": 79.0206,
+                  "y": 31.2784,
+                  "geometry": "M1.85567 0l27.06186 0c0.77319 0 2.0103 0.77319 2.0103 2.01031l0 4.94845c0 1.08248-0.92783 1.85567-2.0103 1.85567l-27.06186 0c-1.08247 0-1.85567-0.77319-1.85567-1.85567l0-4.48454c0-1.08247 0.92783-2.16495 1.85567-2.16494l0-0.30928z",
+                  "fill": "#A1D91B",
+                  "width": 30.9278,
+                  "height": 8.8144
+                },
+                {
+                  "type": "path",
+                  "id": "R7kED8",
+                  "x": 114.8969,
+                  "y": 4.0619,
+                  "geometry": "M1.54639 2.01031c0-1.08247 0.77319-2.01031 2.0103-2.01031l23.65979 0c0.92784 0 1.85568 0.92783 1.85568 2.01031l0 4.48453c0 1.08247-0.77319 1.85567-1.85568 1.85568l-17.7835 0 0 6.49484 14.07216 0c0.92784 0 1.85567 0.7732 1.85567 2.01031l0 4.94845c0 0.7732-0.77319 1.70103-1.54639 1.70103l-14.38144 0 0 10.6701c0 1.39175-0.92784 1.85567-1.85568 1.85568l-5.72163 0c-1.08247 0-1.85567-0.77319-1.85567-1.85568l0-32.16494 1.54639 0z",
+                  "fill": "#A1D91B",
+                  "width": 29.0722,
+                  "height": 36.0309
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ljZV9",
+              "name": "Top CTA",
+              "fill": "$blue",
+              "cornerRadius": 26,
+              "padding": [
+                15,
+                34
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w8HLm",
+                  "name": "CTA Label",
+                  "fill": "$white",
+                  "content": "Požádat o bezplatnou konzultaci",
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cEWX6",
+          "name": "Hero",
+          "width": "fill_container",
+          "gap": 40,
+          "padding": [
+            10,
+            255,
+            40,
+            255
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "u3zFTs",
+              "name": "Hero Illustration",
+              "clip": true,
+              "width": 660,
+              "height": 640,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "B9C3o",
+                  "x": 84.2239,
+                  "y": 34.2246,
+                  "geometry": "M485.51944 530.48126c-1.71118-6.84491-18.48126-10.26739-27.37964-15.05877-20.53479-9.92511-23.27277-19.16584-24.64172-30.80219-5.47595-63.31549-6.84494-157.43317-43.8075-174.8877l-3.08023-1.71124 6.84491-5.81814c6.84494-8.21393 9.92514-14.03211 9.92514-26.01075-1.02673-37.98927-59.55078-73.24058-79.74332-91.37963-9.24063-6.84493-19.50799-14.03208-22.93048-21.90375l0 0.34224c11.97861-2.73795 21.56153-8.2139 29.43317-16.4278 15.40106-17.11229 24.98398-41.06952 25.3262-66.39572l0-9.92514c0-39.70053-31.48663-67.08021-68.44919-70.50267l-7.52941 0c-30.11765 0-60.23529 20.19251-71.18717 47.91444l0 7.18716 0.34226 9.92513-5.1337-1.02673-22.246 9.92514-5.47593 5.13368c-14.03207 10.95187 1.71125 35.59358 3.76471 35.59358-17.45452 4.79146-50.31015 25.66846-78.03208 49.62568-36.27807 31.48661-84.53476 99.59356-98.56685 205.34756-12.6631 93.77539 15.74332 166.33157 78.71659 184.81284 98.90908 26.01074 142.03206-22.58826 167.01604-60.23529 9.92511-15.05884 30.11762-47.57218 33.88233-60.23529l1.02676 14.37432c0 17.79679 2.39569 55.78614 5.13367 70.84491 4.10696 20.87702-5.81815 38.67383 11.9786 45.51874 17.45456 5.47595 29.09092-1.36896 47.91446 1.71124 21.21924 2.05347 62.97327 6.84491 63.31549-6.84497 0.34226-11.63629-11.63635-13.68982-10.26736-14.0321 22.58826-2.05341 89.3262 6.50275 85.21921-10.60956",
+                  "fill": "#B7DC34",
+                  "width": 487.0698,
+                  "height": 568.9243
+                },
+                {
+                  "type": "path",
+                  "id": "w1sy3",
+                  "x": 256.4973,
+                  "y": 97.4558,
+                  "geometry": "M17.8877 71.27149l-14.03208-28.40642c-6.16043-14.03207-5.81818-25.3262 7.52942-32.51336 15.05881-8.21391 30.80212-17.45455 41.06952-2.05348 5.47592 9.24064 15.05881 31.48663 26.35294 56.47059 10.60962 24.64171 1.36899 29.09091-20.87702 37.98931",
+                  "fill": "#30ACFF",
+                  "width": 83.2011,
+                  "height": 102.7581,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "bevel",
+                  "strokeLinecap": "square"
+                },
+                {
+                  "type": "path",
+                  "id": "f82wQ",
+                  "x": 294.5775,
+                  "y": 36.2455,
+                  "geometry": "M0 50.68498c6.84494-23.61497 33.19788-49.96791 70.16043-50.65241 36.96259-1.02674 74.2674 22.24599 74.2674 66.05347 0.34225 36.27808-17.11231 72.55616-43.8075 85.56151-10.60962 5.47594-21.56152 7.87166-34.22461 6.16043",
+                  "width": 144.4328,
+                  "height": 158.3524,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "LF1zJ",
+                  "x": 385.2727,
+                  "y": 194.738,
+                  "geometry": "M0 0c13.68985 16.42779 101.30481 61.26202 101.98932 112.25665",
+                  "width": 101.9893,
+                  "height": 112.2567,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.475935828877006,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "wEiTR",
+                  "x": 351.0481,
+                  "y": 112.5989,
+                  "geometry": "M26.01071 2.73797c-9.24063 4.10696-18.13904 3.42246-26.01071-2.73797m48.94119 6.16043c6.84491 4.79144 15.74332 6.84492 23.95722 2.39572",
+                  "width": 72.8984,
+                  "height": 11.0182,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "ElqKI",
+                  "x": 370.2139,
+                  "y": 156.1763,
+                  "geometry": "M26.69519 3.31033c-2.39569 5.81819-10.26736 9.5829-11.97861-2.73796-2.73798-3.76469-10.26736 12.6631-14.71658 2.39572",
+                  "width": 26.6952,
+                  "height": 8.7489,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "KRI1W",
+                  "x": 86.8264,
+                  "y": 109.861,
+                  "geometry": "M213.56931 0l9.24063 19.85027m-46.20322 19.50801c-18.13902 5.1337-112.25667 51.3369-152.29945 162.22461-13.68983 36.27807-24.64171 86.24597-24.29947 145.11227 1.71124 70.84494 36.27808 123.8931 96.85562 136.89841 84.53477 17.1123 130.73796-33.88233 155.03743-71.87165 9.92514-15.05883 27.37967-46.20324 28.06415-56.12835 1.02676 17.1123 0.34228 61.26202 5.8182 87.61499 4.10694 18.82354-5.47592 34.56683 12.32083 44.492 10.2674 5.47589 23.61499 3.0802 31.82889 2.73792 19.50803-1.02668 24.98395 1.71124 45.51871 2.73797 14.71658 1.02674 35.5936 0 34.22461-11.29413-2.05347-14.37432-36.27808-16.42779-46.54544-35.59356-4.10697-8.55616 0-45.86093 0-82.4813 0-23.95721-1.02677-58.8663-7.18717-83.85025-3.42245-10.26736-9.24066-24.98394-23.61499-32.51336",
+                  "width": 409.7403,
+                  "height": 493.4835,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "NxBf2",
+                  "x": 449.9572,
+                  "y": 343.9572,
+                  "geometry": "M20.53476 0c34.22458 7.52939 40.04275 59.55081 44.14969 94.11764 3.76477 26.01072 5.13373 69.81815 8.55615 86.93046 3.42249 17.1123 17.79688 22.58825 34.22461 29.43316 7.52948 3.42249 14.37439 7.1872 14.71661 14.03211 0.68445 13.00531-31.14434 11.29406-50.31018 9.92511-16.77002-0.34223-33.88236 3.76477-47.91443-4.44916-7.52942-5.81818-6.50268-21.56152-9.58291-31.14441l-14.3743-38.33157",
+                  "width": 122.1927,
+                  "height": 235.3647,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "HdJxQ",
+                  "x": 287.3904,
+                  "y": 360.7273,
+                  "geometry": "M0 32.85562c13.34763-10.60962 34.56683-24.98398 50.99466-32.85562l1.02673 0",
+                  "width": 52.0214,
+                  "height": 32.8556,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "Vq0Ag",
+                  "x": 255.7581,
+                  "y": 98.3489,
+                  "geometry": "M55.58949 102.20728c26.01068-9.24064 31.14435-17.11229 23.61496-35.93583-4.79144-11.97861-18.48129-41.06952-25.3262-56.12833-8.2139-13.68984-20.53476-12.66311-39.35828-2.05348-16.77007 7.87167-17.45454 19.85027-9.92514 35.25135l13.3476 25.66844",
+                  "width": 82.3726,
+                  "height": 102.2073,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "pR9iR",
+                  "x": 263.2673,
+                  "y": 122.1997,
+                  "geometry": "M4.95731 6.48478c3.76468-2.73796-0.34225-8.89838-4.10697-5.47592-2.39572 2.05347 0.68448 7.52942 4.10697 5.47592z",
+                  "fill": "#231F20",
+                  "width": 6.4485,
+                  "height": 6.9378
+                },
+                {
+                  "type": "path",
+                  "id": "pJJY2",
+                  "x": 393.1444,
+                  "y": 287.8289,
+                  "geometry": "M0 0c17.79678 15.40109 26.01068 15.40109 20.53476 17.1123",
+                  "width": 22.212,
+                  "height": 17.1123,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "HpbX2",
+                  "x": 152.2032,
+                  "y": 169.3336,
+                  "geometry": "M0 189.68243c9.92514 25.66843 36.62033 72.55613 67.08021 81.45453 40.72727 11.63639 57.49732-19.50802 66.73795-40.38501 15.05884-35.93585 22.246-94.11764 21.56152-153.32622-0.6845-22.93048-2.05346-30.80214 5.47593-48.59892 5.47595-11.29413 11.63638-35.59358 0.68447-27.03744",
+                  "width": 167.6084,
+                  "height": 273.6647,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "i6Jutx",
+                  "x": 286.0214,
+                  "y": 144.1614,
+                  "geometry": "M0 26.96162c8.21393-16.77005 19.85028-30.80214 25.32623-26.01068 4.79144 4.10693-8.55615 22.58823-13.34759 30.80214l13.00534-20.53476c7.87164-5.1337 6.84491 10.26738-4.44922 27.37967 1.02676-1.36899 6.50269-13.00536 11.63638-15.40106 7.52939-1.71123-1.71124 27.72192-5.13369 29.77539",
+                  "width": 35.048,
+                  "height": 52.9723,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "iMWpB",
+                  "x": 274.0428,
+                  "y": 140.473,
+                  "geometry": "M0 27.56975c4.44922-8.89839 20.19253-29.77539 25.32623-27.37967 5.81815 1.02675-5.47595 19.16577-5.47595 19.16577",
+                  "width": 26.9917,
+                  "height": 27.5697,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "jT4Eh",
+                  "x": 218.5989,
+                  "y": 167.3583,
+                  "geometry": "M0 130.73796c0 13.68982 2.39571 33.5401 10.26738 45.86096 15.7433-23.61499 38.33153-93.7754 39.70052-130.39572 0.34225-16.08556-6.50269-26.69519 5.13369-46.2032",
+                  "width": 55.1016,
+                  "height": 176.5989,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "rv1zg",
+                  "x": 338.385,
+                  "y": 300.8342,
+                  "geometry": "M0 59.89304c13.68985-23.95721 51.67914-44.49197 86.24597-59.89304",
+                  "width": 86.246,
+                  "height": 59.893,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "KW8N7",
+                  "x": 207.3048,
+                  "y": 444.9198,
+                  "geometry": "M0 31.14441c8.55615-11.63638 21.56151-24.29947 27.03743-31.14441",
+                  "width": 27.0374,
+                  "height": 31.1444,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "SHg90",
+                  "x": 338.5164,
+                  "y": 257.0267,
+                  "geometry": "M3.97552 122.18182l1.02677-4.79144c-4.79144 12.32086-7.52942 29.09091-1.71124 29.09091 4.44919 0.34223 8.89841-20.53476 10.26739-23.27273l0 1.02673c-3.42245 10.2674-4.79144 24.64169 0 22.93048 3.76471-1.36899 10.26736-19.50802 13.00534-23.95721l-1.02673 2.73797c-3.08023 10.60962-3.08023 22.93045 2.73794 16.08554 9.92514-11.9786 9.24066-27.37967 26.35297-34.22457 17.79678-9.24064 44.8342-8.55616 67.0802-16.08558 15.74332-5.1337 26.35294-15.40106 27.03745-31.82888 0.68447-32.51337-47.22995-58.18182-45.51874-59.89304",
+                  "width": 148.7529,
+                  "height": 147.3055,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "XDv1r",
+                  "x": 330.7568,
+                  "y": 364.8342,
+                  "geometry": "M6.6015 0c-5.1337 13.68982-10.60962 31.82886-2.39572 27.37967l6.84491-9.24063",
+                  "width": 11.0507,
+                  "height": 28.0654,
+                  "stroke": "#231F20",
+                  "strokeWidth": 5.133689839572193,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Jgsan",
+              "name": "Hero Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 26,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R7zEnZ",
+                  "name": "H1",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Podpora duševního\nzdraví pro zaměstnance",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$fh",
+                  "fontSize": 52,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "fgSkQ",
+                  "name": "Para 1",
+                  "fill": "$ink-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Program podpory zaměstnanců (EAP) je zaměřený na pomoc zaměstnancům a jejich rodinným příslušníkům při řešení náročných životních situací, které ovlivňují jejich duševní pohodu, stabilitu a celkový pracovní výkon.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dqJLt",
+                  "name": "Para 2",
+                  "fill": "$ink-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Firmám pomáhá snižovat absenci, zvyšovat angažovanost, stabilitu týmů a budovat silnou, zdravou firemní kulturu.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zVq7V",
+                  "name": "Hero Buttons",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wFGqz",
+                      "name": "Btn Rezervovat",
+                      "fill": "$lime",
+                      "cornerRadius": 14,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U2jfcM",
+                          "name": "lbl",
+                          "fill": "$ink",
+                          "content": "Rezervovat konzultaci",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SELPs",
+                      "name": "Btn Jak funguje",
+                      "cornerRadius": 14,
+                      "stroke": "$blue",
+                      "strokeWidth": 2,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h7rtuT",
+                          "name": "lbl",
+                          "fill": "$ink",
+                          "content": "Jak to funguje?",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r87Ki",
+          "name": "Stats Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            10,
+            255,
+            20,
+            255
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "DbAsI",
+              "name": "Stats Title",
+              "fill": "$ink",
+              "content": "Investice do duševního zdraví zaměstnanců se vyplatí",
+              "fontFamily": "$fh",
+              "fontSize": 27,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "AxAlI",
+              "name": "Stats Row",
+              "width": "fill_container",
+              "gap": 30,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "teKAf",
+                  "name": "Stat 5x",
+                  "width": 300,
+                  "height": 209,
+                  "cornerRadius": 16,
+                  "stroke": "#cfcdb8ff",
+                  "strokeWidth": {
+                    "top": 5,
+                    "right": 5,
+                    "bottom": 10,
+                    "left": 5
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    30,
+                    34
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J0DrB",
+                      "name": "num",
+                      "fill": "$blue",
+                      "content": "5x",
+                      "lineHeight": 1,
+                      "fontFamily": "$fh",
+                      "fontSize": 64,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mBOnQ",
+                      "name": "label",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "průměrná návratnost investic",
+                      "lineHeight": 1.2,
+                      "fontFamily": "$fb",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yOh1e",
+                      "name": "source",
+                      "fill": "#9A9A90",
+                      "content": "(Deloitte)",
+                      "fontFamily": "$fb",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q0YhQJ",
+                  "name": "Stat -60",
+                  "width": 300,
+                  "height": 201,
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 5,
+                    "right": 5,
+                    "bottom": 10,
+                    "left": 5
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    30,
+                    34
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KCOao",
+                      "name": "num",
+                      "fill": "$blue",
+                      "content": "−60%",
+                      "lineHeight": 1,
+                      "fontFamily": "$fh",
+                      "fontSize": 64,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VjnsF",
+                      "name": "label",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "nižší fluktuace zaměstnanců",
+                      "lineHeight": 1.2,
+                      "fontFamily": "$fb",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xV67U",
+                      "name": "source",
+                      "fill": "#9A9A90",
+                      "content": "(HBR)",
+                      "fontFamily": "$fb",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b9Uzl",
+                  "name": "Stat -43",
+                  "width": "fill_container",
+                  "height": 203,
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 5,
+                    "right": 5,
+                    "bottom": 10,
+                    "left": 5
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    30,
+                    34
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s7otCV",
+                      "name": "num",
+                      "fill": "$blue",
+                      "content": "−43%",
+                      "lineHeight": 1,
+                      "fontFamily": "$fh",
+                      "fontSize": 64,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c1ASm",
+                      "name": "label",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "nižší průměrný neproduktivní čas zaměstnance tři měsíce po EAP poradenství",
+                      "lineHeight": 1.2,
+                      "fontFamily": "$fb",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o0yHU",
+                      "name": "source",
+                      "fill": "#9A9A90",
+                      "content": "(EAPs show strong ROI: Report | Canadian HR Reporter)",
+                      "fontFamily": "$fb",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L5aatZ",
+          "name": "Co nabizime Section",
+          "width": "fill_container",
+          "gap": 44,
+          "padding": [
+            40,
+            255,
+            50,
+            255
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Cg5ZD",
+              "name": "Left",
+              "width": 380,
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                10,
+                0,
+                0,
+                15
+              ],
+              "justifyContent": "space_around",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WGMFj",
+                  "name": "Heading",
+                  "fill": "$ink",
+                  "content": "Co nabízíme?",
+                  "fontFamily": "$fh",
+                  "fontSize": 46,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "C76tA",
+                  "name": "Btn Rezervovat Dark",
+                  "fill": "$dark-btn",
+                  "cornerRadius": 16,
+                  "padding": [
+                    18,
+                    34
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X0sJx",
+                      "name": "lbl",
+                      "fill": "$white",
+                      "content": "Rezervovat konzultaci",
+                      "fontFamily": "$fb",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z61Bfq",
+              "name": "Blue Panel",
+              "width": "fill_container",
+              "fill": "$blue-panel",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 26,
+              "padding": [
+                34,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K0bFKs",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NFWLm",
+                      "name": "Nepřetržitá krizová linka (24/7)",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "x7Mzjj",
+                          "name": "badge24",
+                          "width": 28,
+                          "height": 26,
+                          "fill": "$ink",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "e7aJ9",
+                              "name": "t",
+                              "fill": "$white",
+                              "content": "24",
+                              "fontFamily": "$fb",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "igXCw",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "r59vV",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nepřetržitá krizová linka (24/7)",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SCjUx",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Okamžitá pomoc v krizi nebo při akutním stresu.",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KOYLO",
+                      "name": "Psychologické poradenství",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "zsneH",
+                          "name": "ic",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "message-square-text",
+                          "library": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U1tCqs",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NZySs",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Psychologické poradenství",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tvYm3",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Telefonicky, online nebo osobně – podpora duševního zdraví.",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QemPD",
+                      "name": "Právní poradenství",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mpJHZ",
+                          "name": "ic",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "scale",
+                          "library": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "juTN0",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FJW35",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Právní poradenství",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yHigi",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Praktické rady pro životní situace (soudní spory, spotřebitelské právo, rodinné právo).",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Hn8Xu",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "gap": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FKYTv",
+                      "name": "Finanční poradenství",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "q7VOdM",
+                          "name": "ic",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "euro",
+                          "library": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DDf3y",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WE7DB",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Finanční poradenství",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BGuky",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Organizace financí, daně, exekuce – snížení stresu z peněz.",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "epXha",
+                      "name": "Podpora pro management a HR",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "FjG6q",
+                          "name": "ic",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "users",
+                          "library": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MAOaj",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lIVep",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Podpora pro management a HR",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "r1HAg",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Konzultace, doporučení a nasměrování v citlivých situacích.",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K27gai",
+                      "name": "A více...",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "N1tMN",
+                          "name": "ic",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "message-circle-more",
+                          "library": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Q4FrC",
+                          "name": "txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BdYwq",
+                              "name": "title",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "A více...",
+                              "lineHeight": 1.15,
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lZJd2",
+                              "name": "desc",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Rozšířené služby podle potřeb firmy a zaměstnanců.",
+                              "lineHeight": 1.3,
+                              "fontFamily": "$fb",
+                              "fontSize": 15.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t8KgPv",
+          "name": "Testimonials Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 34,
+          "padding": [
+            10,
+            255
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "H7Ehtm",
+              "name": "Testimonial Radka Zídková",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "gap": 60,
+              "padding": [
+                38,
+                48
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hwMs1",
+                  "name": "Left",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 30,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qOyPy",
+                      "name": "LKQ Logo",
+                      "fill": "$ink",
+                      "content": "LKQ",
+                      "fontFamily": "$fh",
+                      "fontSize": 46,
+                      "fontWeight": "800",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ii7Di",
+                      "name": "Author",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VrJrl",
+                          "name": "nm",
+                          "fill": "$ink",
+                          "content": "Radka Zídková",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dMQPR",
+                          "name": "role",
+                          "fill": "$ink",
+                          "content": "HR Generalist",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P7zDHc",
+                          "name": "comp",
+                          "fill": "$ink",
+                          "content": "CEE, LKQ Central and Eastern Europe",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "M5FJ2",
+                  "name": "Quote",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "S ENEF spolupracujeme již delší dobu a jejich služby představují pro naše zaměstnance velkou přidanou hodnotu. Ohlasy z firmy jsou velmi pozitivní – zaměstnanci oceňují jak profesionální psychologickou podporu, tak i pomoc v oblasti financí či práva. Díky skvělé komunikaci, rychlé odezvě v případě potřeby a lidskému přístupu této společnosti vidíme reálný dopad na vyšší spokojenost a stabilitu našeho týmu. ENEF považujeme za spolehlivého partnera v oblasti péče o zaměstnance.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GYBX8",
+              "name": "Testimonial Edita Zámečníkova",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "gap": 60,
+              "padding": [
+                38,
+                48
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ehosR",
+                  "name": "Left",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 25,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pJDoi",
+                      "name": "Logo",
+                      "width": 150,
+                      "height": 61,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../../.pencil/documents/3f5c62a7-ac06-4782-8efe-715f65a67463/assets/logo-ikea.png",
+                        "mode": "fit"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Di0z4",
+                      "name": "Author",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g7msR",
+                          "name": "nm",
+                          "fill": "$ink",
+                          "content": "Edita Zámečníkova",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y6xFb",
+                          "name": "role",
+                          "fill": "$ink",
+                          "content": "People & Culture Experience Leader",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BeJi1",
+                          "name": "comp",
+                          "fill": "$ink",
+                          "content": "IKEA Components s.r.o. Slovensko",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "V8HJ1z",
+                  "name": "Quote",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Se společností ENEF spolupracujeme už řadu let a této spolupráce si velmi vážíme. Naši zaměstnanci od nich dostávají profesionální podporu, porozumění a pomoc v situacích, kdy ji nejvíce potřebují. Pro náš byznys jsou kvalitní výkonnostní výsledky klíčové. Jsem přesvědčená, že jich lze dlouhodobě udržitelně dosahovat díky zaměstnancům, kteří se cítí bezpečně, mají důvěru a jistotu. Ve spolupráci s týmem ENEF se nám to společně daří. 😊",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xMkVM",
+              "name": "Testimonial Eva Proksová",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "gap": 60,
+              "padding": [
+                38,
+                48
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CNj76",
+                  "name": "Left",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i4Edxl",
+                      "name": "Logo",
+                      "width": 150,
+                      "height": 84,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../../.pencil/documents/3f5c62a7-ac06-4782-8efe-715f65a67463/assets/logo-ing.png",
+                        "mode": "fit"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uNIuN",
+                      "name": "Author",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZP5jz",
+                          "name": "nm",
+                          "fill": "$ink",
+                          "content": "Eva Proksová",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vY0hV",
+                          "name": "role",
+                          "fill": "$ink",
+                          "content": "Payroll & Benefit Expert II",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "whzw2",
+                          "name": "comp",
+                          "fill": "$ink",
+                          "content": "ING Hubs Slovakia",
+                          "fontFamily": "$fb",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WQVOy",
+                  "name": "Quote",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "EAP program od společnosti ENEF nám výrazně pomohl zlepšit pracovní pohodu i celkovou atmosféru v týmu. Zaměstnanci oceňují možnost diskrétně konzultovat osobní i pracovní problémy s odborníky. Díky programu se zvýšila spokojenost i produktivita. Určitě jej doporučujeme každému zaměstnavateli, který chce podpořit duševní zdraví svých lidí.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hudjx",
+          "name": "Value Cards Section",
+          "width": "fill_container",
+          "gap": 38,
+          "padding": [
+            30,
+            310
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "P5yVMG",
+              "name": "VCard",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 36,
+              "padding": [
+                46,
+                44,
+                50,
+                44
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fBhNq",
+                  "name": "Circle",
+                  "width": 92,
+                  "height": 92,
+                  "fill": "$lime",
+                  "cornerRadius": 46,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#A9EA3355",
+                    "blur": 26,
+                    "spread": 2
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gp009",
+                      "name": "ic",
+                      "width": 42,
+                      "height": 42,
+                      "icon": "users-round",
+                      "library": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "G7pMq",
+                  "name": "txt",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Více než 40 000 lidí, o \njejichž pohodu se dlouhodobě staráme",
+                  "lineHeight": 1.28,
+                  "fontFamily": "$fb",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kzfm9",
+              "name": "VCard",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 36,
+              "padding": [
+                46,
+                44,
+                50,
+                44
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ug7qx",
+                  "name": "Circle",
+                  "width": 92,
+                  "height": 92,
+                  "fill": "$lime",
+                  "cornerRadius": 46,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#A9EA3355",
+                    "blur": 26,
+                    "spread": 2
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "XgV0G",
+                      "name": "ic",
+                      "width": 42,
+                      "height": 42,
+                      "icon": "users",
+                      "library": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MbUO5",
+                  "name": "txt",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "100+ odborníků v Česku a na Slovensku",
+                  "lineHeight": 1.28,
+                  "fontFamily": "$fb",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qzIOb",
+              "name": "VCard",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 36,
+              "padding": [
+                46,
+                44,
+                50,
+                44
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Z7WsG",
+                  "name": "Circle",
+                  "width": 92,
+                  "height": 92,
+                  "fill": "$lime",
+                  "cornerRadius": 46,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#A9EA3355",
+                    "blur": 26,
+                    "spread": 2
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HneFu",
+                      "name": "ic",
+                      "width": 42,
+                      "height": 42,
+                      "icon": "handshake",
+                      "library": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "wEr4l",
+                  "name": "txt",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Podporujeme více než 150 firem v Česku a na Slovensku",
+                  "lineHeight": 1.28,
+                  "fontFamily": "$fb",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "shkRn",
+          "name": "Contact Card Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            310,
+            30,
+            310
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HKvwu",
+              "name": "Contact Card",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 20,
+              "gap": 44,
+              "padding": [
+                34,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OaQlZ",
+                  "name": "Photo",
+                  "clip": true,
+                  "width": 258,
+                  "height": 252,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../../.pencil/documents/3f5c62a7-ac06-4782-8efe-715f65a67463/assets/person-image.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "GxOQp",
+                  "name": "Right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QhBgm",
+                      "name": "Head",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K1LdM",
+                          "name": "h",
+                          "fill": "$ink",
+                          "content": "Máte zájem se dozvít víc?",
+                          "fontFamily": "$fh",
+                          "fontSize": 25,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NOanu",
+                          "name": "s",
+                          "fill": "$ink",
+                          "content": "Kontaktujte nás.",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TcVab",
+                      "name": "Info Row",
+                      "gap": 70,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cKOwo",
+                          "name": "Name Col",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V0zPK",
+                              "name": "nm",
+                              "fill": "$ink",
+                              "content": "Eva Bartošíková",
+                              "fontFamily": "$fb",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mm3MK",
+                              "name": "role",
+                              "fill": "$ink",
+                              "content": "Jednatelka",
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NlqpE",
+                          "name": "Contact Col",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UwSsb",
+                              "name": "phone",
+                              "fill": "$ink",
+                              "content": "+420 731 680",
+                              "fontFamily": "$fb",
+                              "fontSize": 27,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zGdaw",
+                              "name": "email",
+                              "fill": "$ink-2",
+                              "content": "e.bartosikova@enefservices.cz",
+                              "fontFamily": "$fb",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EV0Xx",
+                      "name": "Btn",
+                      "fill": "$dark-btn",
+                      "cornerRadius": 16,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mq9UO",
+                          "name": "lbl",
+                          "fill": "$white",
+                          "content": "Rezervovat konzultaci",
+                          "fontFamily": "$fb",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d0K33P",
+          "name": "Reviews Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            10,
+            255
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RjCss",
+              "name": "Review Katarína M.",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 16,
+              "gap": 50,
+              "padding": [
+                30,
+                46
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yb5KA",
+                  "name": "NameWrap",
+                  "width": 210,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GPhJx",
+                      "name": "nm",
+                      "fill": "$ink",
+                      "content": "Katarína M.",
+                      "fontFamily": "$fb",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "D8tjB",
+                  "name": "q",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Děkuji paní psycholožce, velmi mi pomohla vyrovnat se s nastalou životní situací, získat odvahu a udělat správné kroky.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qofJm",
+              "name": "Review Petra S.",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 16,
+              "gap": 50,
+              "padding": [
+                30,
+                46
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EBQ2I",
+                  "name": "NameWrap",
+                  "width": 210,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MvK7U",
+                      "name": "nm",
+                      "fill": "$ink",
+                      "content": "Petra S.",
+                      "fontFamily": "$fb",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zj23Y",
+                  "name": "q",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Paní psycholožka dokázala během jediného sezení do hloubky porozumět mému problému, projevit mi soucit a přinést silnou přidanou hodnotu — pomohla mi najít odpovědi v sobě. Děkuji za tuto možnost, velmi si toho vážím.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JdFP4",
+              "name": "Review Sofie P.",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 16,
+              "gap": 50,
+              "padding": [
+                30,
+                46
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i3VRFF",
+                  "name": "NameWrap",
+                  "width": 210,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mGk8J",
+                      "name": "nm",
+                      "fill": "$ink",
+                      "content": "Sofie P.",
+                      "fontFamily": "$fb",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "fTfIo",
+                  "name": "q",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Sezení předčila má očekávání a jediné, co bych změnila, je to, že bych se přihlásila už dříve. Velké plus je, že tuto možnost vůbec mám, a přístup paní Uhríkové byl na jedničku — velmi mi pomohla.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zmafi",
+              "name": "Review Natálie H.",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 16,
+              "gap": 50,
+              "padding": [
+                30,
+                46
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kytJr",
+                  "name": "NameWrap",
+                  "width": 210,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ThnbJ",
+                      "name": "nm",
+                      "fill": "$ink",
+                      "content": "Natálie H.",
+                      "fontFamily": "$fb",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Y1Vaz5",
+                  "name": "q",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "S ENEF mám výbornou zkušenost. Obrátila jsem se na ně ve chvíli, kdy jsem řešila složitou finanční situaci, a jejich poradce mi pomohl přehledně zhodnotit možnosti, nastavit realistický plán a zvládnout situaci bez zbytečného stresu. Přístup byl velmi profesionální, lidský a podporující. Moc děkuji!",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$fb",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nkWZQ",
+          "name": "Jak probiha Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            46,
+            345,
+            40,
+            345
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "y8ev3",
+              "name": "Heading",
+              "fill": "$ink",
+              "content": "Jak probíhá bezplatná konzultace",
+              "fontFamily": "$fh",
+              "fontSize": 40,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "VSi1o",
+              "name": "Subtitle",
+              "fill": "$ink",
+              "content": "Nezávazná a plně důvěrná – cílem je zjistit potřeby a navrhnout vhodný rozsah EAP.",
+              "fontFamily": "$fb",
+              "fontSize": 19,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "IO702",
+              "name": "Steps Row",
+              "width": "fill_container",
+              "gap": 34,
+              "padding": [
+                14,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sehuX",
+                  "name": "Step 1.",
+                  "width": 387,
+                  "height": 190,
+                  "fill": "$lime",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    26,
+                    30,
+                    30,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kkxeH",
+                      "name": "n",
+                      "fill": "$ink",
+                      "content": "1.",
+                      "fontFamily": "$fh",
+                      "fontSize": 27,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "didDG",
+                      "name": "t",
+                      "fill": "$ink",
+                      "content": "Autenticita",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RAifl",
+                      "name": "d",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lidský, bezpečný prostor – bez stigmat a zbytečné formálnosti.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$fb",
+                      "fontSize": 16.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SjjOS",
+                  "name": "Step 2.",
+                  "width": 388,
+                  "height": 188,
+                  "fill": "$lime",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    26,
+                    30,
+                    30,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WF4A2",
+                      "name": "n",
+                      "fill": "$ink",
+                      "content": "2.",
+                      "fontFamily": "$fh",
+                      "fontSize": 27,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BIWup",
+                      "name": "t",
+                      "fill": "$ink",
+                      "content": "Péče",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HKrJ1",
+                      "name": "d",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Empatický přístup, důvěrnost a anonymita jsou základem služby.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$fb",
+                      "fontSize": 16.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mBmFw",
+                  "name": "Step 3.",
+                  "width": "fill_container",
+                  "height": 184,
+                  "fill": "$lime",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    26,
+                    30,
+                    30,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NOVCo",
+                      "name": "n",
+                      "fill": "$ink",
+                      "content": "3.",
+                      "fontFamily": "$fh",
+                      "fontSize": 27,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e0LGj",
+                      "name": "t",
+                      "fill": "$ink",
+                      "content": "Profesionalita",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M0tpkH",
+                      "name": "d",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Kvalifikovaní odborníci, etické standardy, průběžné vzdělávání.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$fb",
+                      "fontSize": 16.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dhuPt",
+          "name": "FAQ Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            46,
+            365,
+            50,
+            365
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "uuHr2",
+              "name": "Heading",
+              "fill": "$ink",
+              "content": "Nejčastější otázky o EAP",
+              "fontFamily": "$fh",
+              "fontSize": 44,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "ldPZs",
+              "name": "FAQ List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r3TTE",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "cornerRadius": 6,
+                  "stroke": "$ink",
+                  "strokeWidth": 1.5,
+                  "gap": 20,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P0qQFT",
+                      "name": "q",
+                      "fill": "$ink",
+                      "content": "Jaký druh pomoci poskytujeme v rámci programu EAP?",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ANmar",
+                      "name": "chev",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JNBmc",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "cornerRadius": 6,
+                  "stroke": "$ink",
+                  "strokeWidth": 1.5,
+                  "gap": 20,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IbMnm",
+                      "name": "q",
+                      "fill": "$ink",
+                      "content": "Kdo může využívat program EAP?",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "u0acuY",
+                      "name": "chev",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q2aFWF",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "cornerRadius": 6,
+                  "stroke": "$ink",
+                  "strokeWidth": 1.5,
+                  "gap": 20,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A5LVU",
+                      "name": "q",
+                      "fill": "$ink",
+                      "content": "Jak důvěrný je program EAP?",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "GlhSf",
+                      "name": "chev",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l7iaUh",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "cornerRadius": 6,
+                  "stroke": "$ink",
+                  "strokeWidth": 1.5,
+                  "gap": 20,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uwswx",
+                      "name": "q",
+                      "fill": "$ink",
+                      "content": "Jakým způsobem EAP pomáhá zaměstnancům?",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "NmXTd",
+                      "name": "chev",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O3sCX",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "cornerRadius": 6,
+                  "stroke": "$ink",
+                  "strokeWidth": 1.5,
+                  "gap": 20,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hqP7w",
+                      "name": "q",
+                      "fill": "$ink",
+                      "content": "Nenašli jste odpověď?",
+                      "fontFamily": "$fb",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "QoJSz",
+                      "name": "chev",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$ink"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BhgvV",
+          "name": "Form Section",
+          "width": "fill_container",
+          "gap": 60,
+          "padding": [
+            40,
+            265,
+            60,
+            280
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "URBD2",
+              "name": "Heading",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Zlepšete pohodu a produktivitu vašich zaměstnanců s naším EAP programem.",
+              "lineHeight": 1.12,
+              "fontFamily": "$fh",
+              "fontSize": 44,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "bbSj7",
+              "name": "Form",
+              "width": 640,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C7qzjG",
+                  "name": "Jméno a příjmení",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E6I67W",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "Jméno a příjmení",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k2PTN",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Opxvq",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "Napište své jméno",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N3m1Bz",
+                  "name": "Firma",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "daVEu",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "Firma",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eCM57",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AGkcN",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "Název firmy",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VAShz",
+                  "name": "Email",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ddICq",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "Email",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZQJA6",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AhX5v",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "napr. jana@email.cz",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QnOde",
+                  "name": "Telefon",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PaFXX",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "Telefon",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NVXVQ",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JTvGz",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "+420",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VL8UH",
+                  "name": "Počet zaměstnanců",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jgzcu",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "Počet zaměstnanců",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dkjmz",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YkXnZ",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "1-20",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Hn9Cw",
+                          "name": "chev",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "chevron-down",
+                          "library": "lucide",
+                          "fill": "$placeholder"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qqqoe",
+                  "name": "S čím vám můžeme pomoci?",
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "byx00",
+                      "name": "lbl",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 150,
+                      "content": "S čím vám můžeme pomoci?",
+                      "lineHeight": 1.15,
+                      "textAlign": "right",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HaWps",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 116,
+                      "fill": "$white",
+                      "cornerRadius": 4,
+                      "stroke": "$input-border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CfhcX",
+                          "name": "ph",
+                          "fill": "$placeholder",
+                          "content": "Zpráva",
+                          "fontFamily": "$fb",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NHkHs",
+                  "name": "Submit Row",
+                  "width": "fill_container",
+                  "padding": [
+                    6,
+                    0,
+                    0,
+                    168
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ihcuB",
+                      "name": "Submit",
+                      "width": "fill_container",
+                      "height": 60,
+                      "fill": "$blue",
+                      "cornerRadius": 4,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GlmVz",
+                          "name": "lbl",
+                          "fill": "$white",
+                          "content": "Odeslat správu",
+                          "fontFamily": "$fb",
+                          "fontSize": 21,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WOKbx",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$lime",
+          "gap": 40,
+          "padding": [
+            50,
+            270,
+            46,
+            270
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kEA7Z",
+              "name": "Brand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A9R6Kx",
+                  "name": "c1",
+                  "fill": "$ink",
+                  "content": "© 2026. ENEF CONSULTING s.r.o.",
+                  "fontFamily": "$fb",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tmwy3",
+                  "name": "c2",
+                  "fill": "$ink",
+                  "content": "Zdravý zaměstnanec\nje klíčem k úspěchu.",
+                  "lineHeight": 1.25,
+                  "fontFamily": "$fb",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "al7wI",
+                  "name": "c3",
+                  "fill": "$ink",
+                  "content": "Podmínky ochrany osobních údajů →",
+                  "fontFamily": "$fb",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SgaNY",
+              "name": "Right Group",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AOwRS",
+                  "name": "Contacts",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fh2b1",
+                      "name": "h",
+                      "fill": "$ink-2",
+                      "content": "KONTAKTY",
+                      "fontFamily": "$fb",
+                      "fontSize": 15,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Luqco",
+                      "name": "a",
+                      "fill": "$ink",
+                      "content": "Na Poříčí 1041/12, 110 00 Praha 1",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C1PgO",
+                      "name": "p",
+                      "fill": "$ink",
+                      "content": "+420 731 680 421",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EZHX7",
+                      "name": "e",
+                      "fill": "$ink",
+                      "content": "info@enefservices.cz",
+                      "fontFamily": "$fb",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Itfzk",
+                  "name": "eaef Badge",
+                  "width": 132,
+                  "height": 132,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../../.pencil/documents/3f5c62a7-ac06-4782-8efe-715f65a67463/assets/eaef-member.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#E8E7DA"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#ECEBE2"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#191813"
+    },
+    "ink-2": {
+      "type": "color",
+      "value": "#55554C"
+    },
+    "lime": {
+      "type": "color",
+      "value": "#A9EA33"
+    },
+    "blue": {
+      "type": "color",
+      "value": "#00ACED"
+    },
+    "blue-panel": {
+      "type": "color",
+      "value": "#7FD5F6"
+    },
+    "dark-btn": {
+      "type": "color",
+      "value": "#192308"
+    },
+    "border": {
+      "type": "color",
+      "value": "#D7D6CB"
+    },
+    "fh": {
+      "type": "string",
+      "value": "Poppins"
+    },
+    "fb": {
+      "type": "string",
+      "value": "Poppins"
+    },
+    "placeholder": {
+      "type": "color",
+      "value": "#8C8C82"
+    },
+    "input-border": {
+      "type": "color",
+      "value": "#CFCEC4"
+    }
+  },
+  "fileToken": "baa58aae-c99d-4745-a1ce-357edc835ad7"
+}
